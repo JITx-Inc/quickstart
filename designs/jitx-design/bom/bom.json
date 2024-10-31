@@ -1,0 +1,561 @@
+{
+	"proj-name":	"jitx-design",
+	"headers":	[{
+			"field":	"status",
+			"name":	"Status",
+			"width":	10
+		}, {
+			"field":	"description",
+			"name":	"Description",
+			"width":	10
+		}, {
+			"field":	"insts",
+			"name":	"References",
+			"width":	10
+		}, {
+			"field":	"datasheet",
+			"name":	"Datasheet",
+			"width":	10
+		}, {
+			"field":	"manufacturer",
+			"name":	"Manufacturer",
+			"width":	10
+		}, {
+			"field":	"mpn",
+			"name":	"Part Number",
+			"width":	10
+		}, {
+			"field":	"_quantity",
+			"name":	"Quantity",
+			"width":	8
+		}, {
+			"field":	"price",
+			"name":	"Price",
+			"width":	8
+		}, {
+			"field":	"_preferred",
+			"name":	"Preferred",
+			"width":	8
+		}],
+	"new_bom":	{
+		"rows":	[{
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"2.1A 1uH ±30% 2.1A SMD,3x3mm  Power Inductors ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"buck"
+							},
+							"field":	{
+								"name":	"L"
+							}
+						},
+						"ref":	"L1",
+						"fileinfo":	{
+							"filename":	"components/Texas-Instruments/TPS62080DSGR.stanza",
+							"line":	96,
+							"column":	2
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2211282300_Taiyo-Yuden-NR3015T1R0N_C92931.pdf",
+				"manufacturer":	"Taiyo Yuden",
+				"mpn":	"NR3015T1R0N",
+				"vendor":	"DigiKey",
+				"sku":	"NR3015T1R0N",
+				"price":	0.32,
+				"preferred":	false,
+				"query_properties":	{
+					"manufacturer":	"Taiyo Yuden",
+					"mpn":	"NR3015T1R0N"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 10uF X5R ±20% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"buck"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C1",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}],
+				"datasheet":	"http://www.calchipelectronics.com/pdf/gmc_series.pdf",
+				"manufacturer":	"CAL-CHIP ELECTRONICS, INC.",
+				"mpn":	"GMC04X5R106M10NT",
+				"vendor":	"DigiKey",
+				"sku":	"GMC04X5R106M10NT",
+				"price":	0.18,
+				"preferred":	false,
+				"query_properties":	{
+					"min-rated-temperature.max":	25,
+					"max-rated-temperature.min":	0,
+					"mounting":	"smd",
+					"capacitance":	1e-05,
+					"case":	["0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser"],
+					"_stock":	100,
+					"type":	"ceramic",
+					"min-rated-voltage":	10,
+					"min-stock":	500,
+					"_sort":	["area"],
+					"category":	"capacitor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"Step-down type Adjustable 0.5V~4V 1.2A 2.3V~6V DFN-8-EP(2x2)  DC-DC Converters ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"buck"
+							},
+							"field":	{
+								"name":	"buck"
+							}
+						},
+						"ref":	"U1",
+						"fileinfo":	{
+							"filename":	"components/Texas-Instruments/TPS62080DSGR.stanza",
+							"line":	95,
+							"column":	2
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/1806051415_Texas-Instruments-TPS62080DSGR_C130071.pdf",
+				"manufacturer":	"Texas Instruments",
+				"mpn":	"TPS62080DSGR",
+				"vendor":	"DigiKey",
+				"sku":	"TPS62080DSGR",
+				"price":	1.64,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 22uF X5R ±20% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"buck"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C2",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://page.venkel.com/hubfs/Resources/Datasheets/C-Series.pdf",
+				"manufacturer":	"Venkel",
+				"mpn":	"C0603X5R100-226MNE",
+				"vendor":	"DigiKey",
+				"sku":	"C0603X5R100-226MNE",
+				"price":	0.04875,
+				"preferred":	false,
+				"query_properties":	{
+					"min-rated-temperature.max":	25,
+					"max-rated-temperature.min":	0,
+					"mounting":	"smd",
+					"capacitance":	2.2e-05,
+					"case":	["0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser"],
+					"_stock":	100,
+					"type":	"ceramic",
+					"min-rated-voltage":	10,
+					"min-stock":	500,
+					"_sort":	["area"],
+					"category":	"capacitor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"62.5mW Thick Film Resistors ±100ppm/℃ ±1% 280kΩ 0402  Chip Resistor - Surface Mount ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"buck"
+								},
+								"field":	{
+									"name":	"feedback"
+								}
+							},
+							"field":	{
+								"name":	"r-hi"
+							}
+						},
+						"ref":	"R1",
+						"fileinfo":	{
+							"filename":	"open-components-database/modules/passive-circuits.stanza",
+							"line":	32,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0402FR-07280KL_C185434.pdf",
+				"manufacturer":	"YAGEO",
+				"mpn":	"RC0402FR-07280KL",
+				"vendor":	"DigiKey",
+				"sku":	"RC0402FR-07280KL",
+				"price":	0.00186,
+				"preferred":	false,
+				"query_properties":	{
+					"min-rated-temperature.max":	25,
+					"max-rated-temperature.min":	0,
+					"mounting":	"smd",
+					"tolerance":	0.01,
+					"case":	["0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser"],
+					"_stock":	100,
+					"_exist":	["tcr"],
+					"resistance":	280000,
+					"min-stock":	500,
+					"_sort":	["area"],
+					"category":	"resistor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"62.5mW Thick Film Resistors ±100ppm/℃ ±1% 44.2kΩ 0402  Chip Resistor - Surface Mount ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"buck"
+								},
+								"field":	{
+									"name":	"feedback"
+								}
+							},
+							"field":	{
+								"name":	"r-lo"
+							}
+						},
+						"ref":	"R2",
+						"fileinfo":	{
+							"filename":	"open-components-database/modules/passive-circuits.stanza",
+							"line":	33,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/1912111437_YAGEO-RC0402FR-0744K2L_C354260.pdf",
+				"manufacturer":	"YAGEO",
+				"mpn":	"RC0402FR-0744K2L",
+				"vendor":	"DigiKey",
+				"sku":	"RC0402FR-0744K2L",
+				"price":	0.00186,
+				"preferred":	false,
+				"query_properties":	{
+					"min-rated-temperature.max":	25,
+					"max-rated-temperature.min":	0,
+					"mounting":	"smd",
+					"tolerance":	0.01,
+					"case":	["0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser"],
+					"_stock":	100,
+					"_exist":	["tcr"],
+					"resistance":	44200,
+					"min-stock":	500,
+					"_sort":	["area"],
+					"category":	"resistor"
+				}
+			}],
+		"entries":	[{
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}]
+	},
+	"metrics":	[{
+			"name":	"Line Items",
+			"value":	6
+		}, {
+			"name":	"Components",
+			"value":	6
+		}, {
+			"name":	"Cost",
+			"value":	"$2.19"
+		}],
+	"is_update":	false,
+	"old_bom":	{
+		"rows":	[{
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"2.1A 1uH ±30% 2.1A SMD,3x3mm  Power Inductors ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"buck"
+							},
+							"field":	{
+								"name":	"L"
+							}
+						},
+						"ref":	"L1",
+						"fileinfo":	{
+							"filename":	"components/Texas-Instruments/TPS62080DSGR.stanza",
+							"line":	96,
+							"column":	2
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2211282300_Taiyo-Yuden-NR3015T1R0N_C92931.pdf",
+				"manufacturer":	"Taiyo Yuden",
+				"mpn":	"NR3015T1R0N",
+				"vendor":	"DigiKey",
+				"sku":	"NR3015T1R0N",
+				"price":	0.32,
+				"preferred":	false,
+				"query_properties":	{
+					"manufacturer":	"Taiyo Yuden",
+					"mpn":	"NR3015T1R0N"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 10uF X5R ±20% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"buck"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C1",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}],
+				"datasheet":	"http://www.calchipelectronics.com/pdf/gmc_series.pdf",
+				"manufacturer":	"CAL-CHIP ELECTRONICS, INC.",
+				"mpn":	"GMC04X5R106M10NT",
+				"vendor":	"DigiKey",
+				"sku":	"GMC04X5R106M10NT",
+				"price":	0.18,
+				"preferred":	false,
+				"query_properties":	{
+					"min-rated-temperature.max":	25,
+					"max-rated-temperature.min":	0,
+					"mounting":	"smd",
+					"capacitance":	1e-05,
+					"case":	["0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser"],
+					"_stock":	100,
+					"type":	"ceramic",
+					"min-rated-voltage":	10,
+					"min-stock":	500,
+					"_sort":	["area"],
+					"category":	"capacitor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"Step-down type Adjustable 0.5V~4V 1.2A 2.3V~6V DFN-8-EP(2x2)  DC-DC Converters ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"buck"
+							},
+							"field":	{
+								"name":	"buck"
+							}
+						},
+						"ref":	"U1",
+						"fileinfo":	{
+							"filename":	"components/Texas-Instruments/TPS62080DSGR.stanza",
+							"line":	95,
+							"column":	2
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/1806051415_Texas-Instruments-TPS62080DSGR_C130071.pdf",
+				"manufacturer":	"Texas Instruments",
+				"mpn":	"TPS62080DSGR",
+				"vendor":	"DigiKey",
+				"sku":	"TPS62080DSGR",
+				"price":	1.64,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 22uF X5R ±20% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"name":	"buck"
+							},
+							"field":	{
+								"name":	"cap"
+							}
+						},
+						"ref":	"C2",
+						"fileinfo":	{
+							"filename":	"open-components-database/utils/generic-components.stanza",
+							"line":	743,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://page.venkel.com/hubfs/Resources/Datasheets/C-Series.pdf",
+				"manufacturer":	"Venkel",
+				"mpn":	"C0603X5R100-226MNE",
+				"vendor":	"DigiKey",
+				"sku":	"C0603X5R100-226MNE",
+				"price":	0.04875,
+				"preferred":	false,
+				"query_properties":	{
+					"min-rated-temperature.max":	25,
+					"max-rated-temperature.min":	0,
+					"mounting":	"smd",
+					"capacitance":	2.2e-05,
+					"case":	["0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser"],
+					"_stock":	100,
+					"type":	"ceramic",
+					"min-rated-voltage":	10,
+					"min-stock":	500,
+					"_sort":	["area"],
+					"category":	"capacitor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"62.5mW Thick Film Resistors ±100ppm/℃ ±1% 280kΩ 0402  Chip Resistor - Surface Mount ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"buck"
+								},
+								"field":	{
+									"name":	"feedback"
+								}
+							},
+							"field":	{
+								"name":	"r-hi"
+							}
+						},
+						"ref":	"R1",
+						"fileinfo":	{
+							"filename":	"open-components-database/modules/passive-circuits.stanza",
+							"line":	32,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0402FR-07280KL_C185434.pdf",
+				"manufacturer":	"YAGEO",
+				"mpn":	"RC0402FR-07280KL",
+				"vendor":	"DigiKey",
+				"sku":	"RC0402FR-07280KL",
+				"price":	0.00186,
+				"preferred":	false,
+				"query_properties":	{
+					"min-rated-temperature.max":	25,
+					"max-rated-temperature.min":	0,
+					"mounting":	"smd",
+					"tolerance":	0.01,
+					"case":	["0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser"],
+					"_stock":	100,
+					"_exist":	["tcr"],
+					"resistance":	280000,
+					"min-stock":	500,
+					"_sort":	["area"],
+					"category":	"resistor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"62.5mW Thick Film Resistors ±100ppm/℃ ±1% 44.2kΩ 0402  Chip Resistor - Surface Mount ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"buck"
+								},
+								"field":	{
+									"name":	"feedback"
+								}
+							},
+							"field":	{
+								"name":	"r-lo"
+							}
+						},
+						"ref":	"R2",
+						"fileinfo":	{
+							"filename":	"open-components-database/modules/passive-circuits.stanza",
+							"line":	33,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/1912111437_YAGEO-RC0402FR-0744K2L_C354260.pdf",
+				"manufacturer":	"YAGEO",
+				"mpn":	"RC0402FR-0744K2L",
+				"vendor":	"DigiKey",
+				"sku":	"RC0402FR-0744K2L",
+				"price":	0.00186,
+				"preferred":	false,
+				"query_properties":	{
+					"min-rated-temperature.max":	25,
+					"max-rated-temperature.min":	0,
+					"mounting":	"smd",
+					"tolerance":	0.01,
+					"case":	["0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"_sellers":	["DigiKey", "Mouser"],
+					"_stock":	100,
+					"_exist":	["tcr"],
+					"resistance":	44200,
+					"min-stock":	500,
+					"_sort":	["area"],
+					"category":	"resistor"
+				}
+			}],
+		"entries":	[{
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}]
+	}
+}
