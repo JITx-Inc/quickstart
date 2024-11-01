@@ -7,9 +7,29 @@ defpackage helpers :
   import core
   import jitx
   import jitx/commands
-  import ocdb/utils/checks
-  import ocdb/utils/generic-components
+  import jitx/parts
 
+jsl/design/settings/OPERATING-TEMPERATURE = min-max(0.0 50.0)
+
+public var res-query
+public var cap-query
+
+public defn setup-part-query (--
+                              vendors:Tuple<String|AuthorizedVendor> = jsl/design/settings/APPROVED-DISTRIBUTOR-LIST
+                             ) :
+
+  var general-query = BaseQuery(sellers! = vendors)
+  var smd-query = add(general-query,
+                        mounting = "smd"
+                        case = valid-smd-pkgs("0402"),
+                        operating-temperature = jsl/design/settings/OPERATING-TEMPERATURE
+                      )
+  res-query = ResistorQuery(smd-query)
+  cap-query = CapacitorQuery(smd-query,
+                              type = "ceramic",
+                              temperature-coefficient_code = ["X7R" "X5R"],
+                              rated-voltage = 6.0,
+                            )
 ; ============
 ; setup-design
 ; ============
@@ -22,6 +42,7 @@ public defn setup-design (name:String, board:Board
                           paper-size:Paper = ISO-A4
                           ) :
   set-current-design(name)
+  setup-part-query(vendors = vendors)
   set-board(board)
   match(rules:Rules) : (set-rules(rules))
   set-bom-vendors(vendors)
