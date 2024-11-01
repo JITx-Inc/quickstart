@@ -12,24 +12,15 @@ defpackage main :
 ; Define the shape/size of the board
 val board-shape = RoundedRectangle(30.0, 18.5, 0.25)
 
+pcb-module communications-core :
+  name = "Networked MCU"
+
 ; Module to run as a design
-pcb-module my-design :
-  ; define some pins/ports
-  port gnd
-  port vdd
-  port signal
+pcb-module top-level :
+  inst core : communications-core
 
-  net GND (gnd)
-  net VDD (vdd)
-  net SIGNAL (signal) 
-  ; Instantiate and connect a 10k resistor component between vdd and signal
-  insert-resistor(VDD, SIGNAL, res-query, resistance = 10.0e3)
-  ; Instantiate and connect a 100nF capacitor component between vdd and gnd
-  insert-capacitor(VDD, GND, cap-query, capacitance = 100.0e-9)
 
-  ; schematic symbols
-  symbol(GND) = GND-SYMB
-  symbol(VDD) = PWR-SYMB
+
 
 ; Set the :
 ;     design-name     - a directory with this name will be created in the "designs" directory
@@ -40,7 +31,7 @@ setup-design(
 )
 
 ; Set the top level module (the module to be compile into a schematic and PCB)
-set-main-module(my-design)
+set-main-module(top-level)
 
 ; View the results
 ; take a look at the BOM that was generated
