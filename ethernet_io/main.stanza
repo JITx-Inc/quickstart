@@ -7,7 +7,7 @@ defpackage main :
   import jitx/parts
 
   import helpers
-  import jsl/symbols/net-symbols
+
 
 ; Define the shape/size of the board
 val board-shape = RoundedRectangle(30.0, 18.5, 0.25)
@@ -15,12 +15,13 @@ val board-shape = RoundedRectangle(30.0, 18.5, 0.25)
 pcb-module communications-core :
   name = "Networked MCU"
 
+  inst zener : components/ON-Semiconductor/MMSZ4689T1G/component
+  inst usb-if : connectors/components/USB/USBTypeC/USBC-HighSpeed-Iface(ResistorQuery(case = "0402"), CapacitorQuery(case = "0402"))
+  net (zener.A zener.K)
+
 ; Module to run as a design
 pcb-module top-level :
   inst core : communications-core
-
-
-
 
 ; Set the :
 ;     design-name     - a directory with this name will be created in the "designs" directory

@@ -2,3 +2,6 @@ include? ".slm/stanza.proj"
 pkg-cache: ".slm/pkg-cache"
 package main defined-in "main.stanza"
 package helpers defined-in "helpers.stanza"
+
+packages ethernet-io/* defined-in "src/"
+package components/ON-Semiconductor/MMSZ4689T1G defined-in "components/ON-Semiconductor/MMSZ4689T1G.stanza"

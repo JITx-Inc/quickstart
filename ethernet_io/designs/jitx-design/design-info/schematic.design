@@ -54,8 +54,8 @@
         {"id":16,"box":7,"group":"version-label"}
       ],
       "nets": [
-        {"id":19,"name":{"type":"ref","value":"rid.p[2]"},"refs":[{"inst":15,"port":9},{"inst":14,"port":12}],"labeled?":{"type":"no-label"}},
-        {"id":20,"name":{"type":"ref","value":"rid.p[1]"},"refs":[{"inst":15,"port":8},{"inst":14,"port":11}],"labeled?":{"type":"no-label"}}
+        {"id":22,"name":{"type":"ref","value":"rid.p[2]"},"refs":[{"inst":15,"port":9},{"inst":14,"port":12}],"labeled?":{"type":"no-label"}},
+        {"id":23,"name":{"type":"ref","value":"rid.p[1]"},"refs":[{"inst":15,"port":8},{"inst":14,"port":11}],"labeled?":{"type":"no-label"}}
       ],
       "shorts": [
       ],
@@ -63,7 +63,7 @@
       ]
     },
     "sheets": [
-      {"id":39,"title":null,"groups":[{"id":22,"groups":[null],"border":{"sw":{"x":89,"y":53},"ne":{"x":107,"y":64}},"insts":[{"inst":14,"pose":{"center":{"x":92,"y":58},"angle":0,"flip-x?":false}},{"inst":15,"pose":{"center":{"x":100,"y":59},"angle":0,"flip-x?":false}}],"children":[]},{"id":23,"groups":["version-label"],"border":{"sw":{"x":108,"y":54},"ne":{"x":118,"y":65}},"insts":[{"inst":16,"pose":{"center":{"x":113,"y":59},"angle":0,"flip-x?":false}}],"children":[]}],"nets":[{"id":24,"net":20,"refs":[{"inst":15,"port":8},{"inst":14,"port":11}],"wires":[{"id":28,"a":{"x":92,"y":62},"b":{"x":100,"y":62}},{"id":30,"a":{"x":92,"y":60},"b":{"x":92,"y":62}},{"id":34,"a":{"x":100,"y":61},"b":{"x":100,"y":62}}],"label?":null},{"id":29,"net":19,"refs":[{"inst":15,"port":9},{"inst":14,"port":12}],"wires":[{"id":40,"a":{"x":92,"y":55},"b":{"x":100,"y":55}},{"id":41,"a":{"x":92,"y":55},"b":{"x":92,"y":56}},{"id":42,"a":{"x":100,"y":55},"b":{"x":100,"y":57}}],"label?":null}]}
+      {"id":37,"title":null,"groups":[{"id":24,"groups":[null],"border":{"sw":{"x":89,"y":53},"ne":{"x":107,"y":64}},"insts":[{"inst":14,"pose":{"center":{"x":92,"y":58},"angle":0,"flip-x?":false}},{"inst":15,"pose":{"center":{"x":100,"y":59},"angle":0,"flip-x?":false}}],"children":[]},{"id":25,"groups":["version-label"],"border":{"sw":{"x":108,"y":54},"ne":{"x":118,"y":65}},"insts":[{"inst":16,"pose":{"center":{"x":113,"y":59},"angle":0,"flip-x?":false}}],"children":[]}],"nets":[{"id":31,"net":23,"refs":[{"inst":15,"port":8},{"inst":14,"port":11}],"wires":[{"id":42,"a":{"x":92,"y":62},"b":{"x":100,"y":62}},{"id":47,"a":{"x":92,"y":60},"b":{"x":92,"y":62}},{"id":48,"a":{"x":100,"y":61},"b":{"x":100,"y":62}}],"label?":null},{"id":26,"net":22,"refs":[{"inst":15,"port":9},{"inst":14,"port":12}],"wires":[{"id":39,"a":{"x":92,"y":55},"b":{"x":100,"y":55}},{"id":40,"a":{"x":92,"y":55},"b":{"x":92,"y":56}},{"id":41,"a":{"x":100,"y":55},"b":{"x":100,"y":57}}],"label?":null}]}
     ],
     "hierarchical-diagram": null
   }
