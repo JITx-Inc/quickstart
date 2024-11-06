@@ -1,0 +1,8 @@
+{
+  "operations": [
+    {"operation":"place","place":{"placements":[{"id":"GL76C4n4AK2KsCL3uM9hNk","pose":{"center":{"x":21.05,"y":-6.9267998623847955},"angle":180},"side":"top"},{"id":"D91za9sszjM4wL1nHvSUnK","pose":{"center":{"x":21.05,"y":-8.53},"angle":0},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"D91za9sszjM4wL1nHvSUnK","pose":{"center":{"x":11.530370745959768,"y":-5.866476789025012},"angle":0},"side":"top"},{"id":"GL76C4n4AK2KsCL3uM9hNk","pose":{"center":{"x":11.530370745959768,"y":-4.2632766514098082},"angle":180},"side":"top"}]}},
+    {"operation":"place-labels","reference-designators":{"D91za9sszjM4wL1nHvSUnK":{"center":{"x":-1.0599999999999987,"y":0}},"GL76C4n4AK2KsCL3uM9hNk":{"center":{"x":1.0599999999999983,"y":8.88178419700125e-16},"angle":-180}}},
+    {"operation":"place-labels"}
+  ]
+}
