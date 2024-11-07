@@ -7,14 +7,20 @@ defpackage ethernet_io/controller :
   import jitx/parts
 
   import helpers
-  import jsl/symbols/net-symbols
+  import jsl
 
 
 
 public pcb-module controller :
   name = "Controller"
+  port rail-3v3 : power
+  port USB : usb-data
+  port VDD-USB : power
 
   inst debug-if : FTDI/DebugIF/circuit(
     FTDI/components/FT2232HL/FT2232H-MPSSE,
     FTDI/components/FT2232HL/FT2232H-RS232
     )
+  net (debug-if.VDD-3v3 rail-3v3)
+  net (debug-if.VDD-USB VDD-USB)
+  net (debug-if.USB USB)

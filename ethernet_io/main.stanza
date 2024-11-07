@@ -22,6 +22,9 @@ pcb-module communications-core :
 
   inst ctl : controller 
 
+  net (ctl.USB usb-if.USB)
+  net (ctl.VDD-USB usb-if.VDD-USB)
+
 ; Module to run as a design
 pcb-module top-level :
   inst core : communications-core
