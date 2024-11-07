@@ -47,6 +47,223 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
+				"description":	"Ferrite, 0603, 220Ω @ 100000000000.0 Hz, 0.05 Ω DC",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"core"
+										},
+										"field":	{
+											"name":	"ctl"
+										}
+									},
+									"field":	{
+										"name":	"debug-if"
+									}
+								},
+								"field":	{
+									"name":	"filt-VPHY"
+								}
+							},
+							"field":	{
+								"name":	"U"
+							}
+						},
+						"ref":	"L2",
+						"fileinfo":	{
+							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/.slm/deps/power-systems/src/filters.stanza",
+							"line":	41,
+							"column":	2
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"core"
+										},
+										"field":	{
+											"name":	"ctl"
+										}
+									},
+									"field":	{
+										"name":	"debug-if"
+									}
+								},
+								"field":	{
+									"name":	"filt-VPLL"
+								}
+							},
+							"field":	{
+								"name":	"U"
+							}
+						},
+						"ref":	"L1",
+						"fileinfo":	{
+							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/.slm/deps/power-systems/src/filters.stanza",
+							"line":	41,
+							"column":	2
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_Murata-Electronics-BLM18KG221SN1D_C88980.pdf",
+				"manufacturer":	"MURATA",
+				"mpn":	"BLM18KG221SN1D",
+				"vendor":	"DigiKey",
+				"sku":	"BLM18KG221SN1D",
+				"price":	0.1,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"RES SMD 10K OHM 1% 1/32W 01005",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"ctl"
+									}
+								},
+								"field":	{
+									"name":	"debug-if"
+								}
+							},
+							"field":	{
+								"name":	"R-b"
+							}
+						},
+						"ref":	"R12",
+						"fileinfo":	{
+							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/.slm/deps/FTDI/src/DebugIF.stanza",
+							"line":	141,
+							"column":	6
+						}
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"ctl"
+									}
+								},
+								"field":	{
+									"name":	"debug-if"
+								}
+							},
+							"field":	{
+								"name":	"do-pu"
+							}
+						},
+						"ref":	"R8",
+						"fileinfo":	null
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"ctl"
+									}
+								},
+								"field":	{
+									"name":	"debug-if"
+								}
+							},
+							"field":	{
+								"name":	"clk-pu"
+							}
+						},
+						"ref":	"R7",
+						"fileinfo":	null
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"ctl"
+									}
+								},
+								"field":	{
+									"name":	"debug-if"
+								}
+							},
+							"field":	{
+								"name":	"cs-pu"
+							}
+						},
+						"ref":	"R6",
+						"fileinfo":	null
+					}],
+				"datasheet":	"https://www.vishay.com/docs/20056/crcw01005e3.pdf",
+				"manufacturer":	"VISHAY",
+				"mpn":	"CRCW010010K0FREL",
+				"vendor":	"DigiKey",
+				"sku":	"CRCW010010K0FREL",
+				"price":	0.24,
+				"preferred":	false,
+				"query_properties":	{
+					"resistance":	10000,
+					"tolerance":	0.01,
+					"category":	"resistor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"7.9V 14V 3.6V DFN-10(1x2.5)  ESD Protection Devices ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"core"
+								},
+								"field":	{
+									"name":	"usb-if"
+								}
+							},
+							"field":	{
+								"name":	"esd-prot"
+							}
+						},
+						"ref":	"U1",
+						"fileinfo":	{
+							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/.slm/deps/connectors/src/components/USB/USBTypeC.stanza",
+							"line":	167,
+							"column":	4
+						}
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2302221330_Texas-Instruments-ESD224DQAR_C1981316.pdf",
+				"manufacturer":	"Texas Instruments",
+				"mpn":	"ESD224DQAR",
+				"vendor":	"DigiKey",
+				"sku":	"ESD224DQAR",
+				"price":	0.14068,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
 				"description":	"USB Type-C SMD Connectors ROHS",
 				"insts":	[{
 						"inst":	{
@@ -87,34 +304,727 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"7.9V 14V 3.6V DFN-10(1x2.5)  ESD Protection Devices ROHS",
+				"description":	"10V 4.7uF X7R ±10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
 								"ref":	{
-									"name":	"core"
+									"ref":	{
+										"ref":	{
+											"ref":	{
+												"name":	"core"
+											},
+											"field":	{
+												"name":	"ctl"
+											}
+										},
+										"field":	{
+											"name":	"debug-if"
+										}
+									},
+									"field":	{
+										"name":	"ftdi"
+									}
 								},
 								"field":	{
-									"name":	"usb-if"
+									"name":	"VPLL-byp"
 								}
 							},
 							"field":	{
-								"name":	"esd-prot"
+								"name":	"elem"
 							}
 						},
-						"ref":	"U1",
+						"ref":	"C13",
+						"fileinfo":	null
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"ref":	{
+												"name":	"core"
+											},
+											"field":	{
+												"name":	"ctl"
+											}
+										},
+										"field":	{
+											"name":	"debug-if"
+										}
+									},
+									"field":	{
+										"name":	"ftdi"
+									}
+								},
+								"field":	{
+									"name":	"VPHY-byp"
+								}
+							},
+							"field":	{
+								"name":	"elem"
+							}
+						},
+						"ref":	"C11",
+						"fileinfo":	null
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2201131300_Murata-Electronics-GRM188Z71A475KE15D_C913474.pdf",
+				"manufacturer":	"MURATA",
+				"mpn":	"GRM188Z71A475KE15D",
+				"vendor":	"DigiKey",
+				"sku":	"GRM188Z71A475KE15D",
+				"price":	0.24,
+				"preferred":	false,
+				"query_properties":	{
+					"capacitance":	4.7e-06,
+					"tolerance":	0.1,
+					"type":	"ceramic",
+					"_sort":	["rated-voltage"],
+					"case":	["0603", "0805", "1206"],
+					"temperature-coefficient.code":	"X7R",
+					"min-rated-voltage":	6.6,
+					"max-rated-voltage":	16,
+					"category":	"capacitor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"31.25mW Thick Film Resistors ±1% ±200ppm/℃ 2kΩ 01005  Chip Resistor - Surface Mount ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"ctl"
+									}
+								},
+								"field":	{
+									"name":	"debug-if"
+								}
+							},
+							"field":	{
+								"name":	"element"
+							}
+						},
+						"ref":	"R9",
+						"fileinfo":	null
+					}],
+				"datasheet":	"",
+				"manufacturer":	"Cyntec",
+				"mpn":	"PFR02S-202-FNH",
+				"vendor":	"DigiKey",
+				"sku":	"PFR02S-202-FNH",
+				"price":	0.003,
+				"preferred":	false,
+				"query_properties":	{
+					"resistance":	2000,
+					"tolerance":	0.01,
+					"category":	"resistor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"CAP CER 1000PF 10V X7R 01005",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"ctl"
+									}
+								},
+								"field":	{
+									"name":	"debug-if"
+								}
+							},
+							"field":	{
+								"name":	"C-b"
+							}
+						},
+						"ref":	"C17",
 						"fileinfo":	{
-							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/.slm/deps/connectors/src/components/USB/USBTypeC.stanza",
-							"line":	167,
+							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/.slm/deps/FTDI/src/DebugIF.stanza",
+							"line":	142,
+							"column":	6
+						}
+					}],
+				"datasheet":	"https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf?ref_disty=digikey",
+				"manufacturer":	"TDK Corp",
+				"mpn":	"C0402X7R1A102K020BC",
+				"vendor":	"DigiKey",
+				"sku":	"C0402X7R1A102K020BC",
+				"price":	0.17,
+				"preferred":	false,
+				"query_properties":	{
+					"min-rated-voltage":	10,
+					"capacitance":	1e-09,
+					"tolerance":	0.1,
+					"type":	"ceramic",
+					"temperature-coefficient.code":	"X7R",
+					"category":	"capacitor"
+				}
+			}, {
+				"status":	{
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
+				},
+				"description":	"Cap Cer 3.3UF 10V X7R 0805",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"core"
+										},
+										"field":	{
+											"name":	"ctl"
+										}
+									},
+									"field":	{
+										"name":	"debug-if"
+									}
+								},
+								"field":	{
+									"name":	"ftdi"
+								}
+							},
+							"field":	{
+								"name":	"VREGOUT-byp"
+							}
+						},
+						"ref":	"C3",
+						"fileinfo":	null
+					}],
+				"datasheet":	"http://www.calchipelectronics.com/pdf/gmc_series.pdf",
+				"manufacturer":	"CAL-CHIP ELECTRONICS, INC.",
+				"mpn":	"GMC21X7R335K10NT",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
+				},
+				"description":	"50mW ±1% 0Ω 0201  Chip Resistor - Surface Mount ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"ctl"
+									}
+								},
+								"field":	{
+									"name":	"debug-if"
+								}
+							},
+							"field":	{
+								"name":	"element"
+							}
+						},
+						"ref":	"R10",
+						"fileinfo":	null
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"ctl"
+									}
+								},
+								"field":	{
+									"name":	"debug-if"
+								}
+							},
+							"field":	{
+								"name":	"element"
+							}
+						},
+						"ref":	"R5",
+						"fileinfo":	null
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_UNI-ROYAL-Uniroyal-Elec-NQ01WMF0000TEE_C2779702.pdf",
+				"manufacturer":	"Uniroyal",
+				"mpn":	"NQ01WMF0000TEE",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
+				},
+				"description":	"Crystal, SMT, Toleranced(11999400.0 <= 12000000.0 <= 12000600.0) Hz",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"core"
+										},
+										"field":	{
+											"name":	"ctl"
+										}
+									},
+									"field":	{
+										"name":	"debug-if"
+									}
+								},
+								"field":	{
+									"name":	"resonator"
+								}
+							},
+							"field":	{
+								"name":	"xtal"
+							}
+						},
+						"ref":	"X1",
+						"fileinfo":	{
+							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/.slm/deps/jsl/src/circuits/CrystalResonator.stanza",
+							"line":	68,
 							"column":	4
 						}
 					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2302221330_Texas-Instruments-ESD224DQAR_C1981316.pdf",
-				"manufacturer":	"Texas Instruments",
-				"mpn":	"ESD224DQAR",
-				"vendor":	"DigiKey",
-				"sku":	"ESD224DQAR",
-				"price":	0.14068,
+				"datasheet":	null,
+				"manufacturer":	"EPSON",
+				"mpn":	"FA-238V 12.0000MB-W3",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
+				},
+				"description":	"RES 4.7K OHM 1% 1/32W 01005",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"ctl"
+									}
+								},
+								"field":	{
+									"name":	"debug-if"
+								}
+							},
+							"field":	{
+								"name":	"R-t"
+							}
+						},
+						"ref":	"R11",
+						"fileinfo":	{
+							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/.slm/deps/FTDI/src/DebugIF.stanza",
+							"line":	140,
+							"column":	6
+						}
+					}],
+				"datasheet":	"https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1107",
+				"manufacturer":	"PANASONIC",
+				"mpn":	"ERJ-U0XF4701Y",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
+				},
+				"description":	"CAP CER 0.1UF 10V X7R 0402",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"ref":	{
+												"name":	"core"
+											},
+											"field":	{
+												"name":	"ctl"
+											}
+										},
+										"field":	{
+											"name":	"debug-if"
+										}
+									},
+									"field":	{
+										"name":	"ftdi"
+									}
+								},
+								"field":	{
+									"name":	"VPLL-byp"
+								}
+							},
+							"field":	{
+								"name":	"elem"
+							}
+						},
+						"ref":	"C14",
+						"fileinfo":	null
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"ref":	{
+												"name":	"core"
+											},
+											"field":	{
+												"name":	"ctl"
+											}
+										},
+										"field":	{
+											"name":	"debug-if"
+										}
+									},
+									"field":	{
+										"name":	"ftdi"
+									}
+								},
+								"field":	{
+									"name":	"VPHY-byp"
+								}
+							},
+							"field":	{
+								"name":	"elem"
+							}
+						},
+						"ref":	"C12",
+						"fileinfo":	null
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"core"
+										},
+										"field":	{
+											"name":	"ctl"
+										}
+									},
+									"field":	{
+										"name":	"debug-if"
+									}
+								},
+								"field":	{
+									"name":	"ftdi"
+								}
+							},
+							"field":	{
+								"name":	"VCCIO[3]-byp"
+							}
+						},
+						"ref":	"C10",
+						"fileinfo":	null
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"core"
+										},
+										"field":	{
+											"name":	"ctl"
+										}
+									},
+									"field":	{
+										"name":	"debug-if"
+									}
+								},
+								"field":	{
+									"name":	"ftdi"
+								}
+							},
+							"field":	{
+								"name":	"VCCIO[2]-byp"
+							}
+						},
+						"ref":	"C9",
+						"fileinfo":	null
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"core"
+										},
+										"field":	{
+											"name":	"ctl"
+										}
+									},
+									"field":	{
+										"name":	"debug-if"
+									}
+								},
+								"field":	{
+									"name":	"ftdi"
+								}
+							},
+							"field":	{
+								"name":	"VCCIO[1]-byp"
+							}
+						},
+						"ref":	"C8",
+						"fileinfo":	null
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"core"
+										},
+										"field":	{
+											"name":	"ctl"
+										}
+									},
+									"field":	{
+										"name":	"debug-if"
+									}
+								},
+								"field":	{
+									"name":	"ftdi"
+								}
+							},
+							"field":	{
+								"name":	"VCCIO[0]-byp"
+							}
+						},
+						"ref":	"C7",
+						"fileinfo":	null
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"core"
+										},
+										"field":	{
+											"name":	"ctl"
+										}
+									},
+									"field":	{
+										"name":	"debug-if"
+									}
+								},
+								"field":	{
+									"name":	"ftdi"
+								}
+							},
+							"field":	{
+								"name":	"VCORE[2]-byp"
+							}
+						},
+						"ref":	"C6",
+						"fileinfo":	null
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"core"
+										},
+										"field":	{
+											"name":	"ctl"
+										}
+									},
+									"field":	{
+										"name":	"debug-if"
+									}
+								},
+								"field":	{
+									"name":	"ftdi"
+								}
+							},
+							"field":	{
+								"name":	"VCORE[1]-byp"
+							}
+						},
+						"ref":	"C5",
+						"fileinfo":	null
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"core"
+										},
+										"field":	{
+											"name":	"ctl"
+										}
+									},
+									"field":	{
+										"name":	"debug-if"
+									}
+								},
+								"field":	{
+									"name":	"ftdi"
+								}
+							},
+							"field":	{
+								"name":	"VCORE[0]-byp"
+							}
+						},
+						"ref":	"C4",
+						"fileinfo":	null
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"core"
+										},
+										"field":	{
+											"name":	"ctl"
+										}
+									},
+									"field":	{
+										"name":	"debug-if"
+									}
+								},
+								"field":	{
+									"name":	"ftdi"
+								}
+							},
+							"field":	{
+								"name":	"VREGIN-byp"
+							}
+						},
+						"ref":	"C2",
+						"fileinfo":	null
+					}],
+				"datasheet":	"https://datasheets.avx.com/X7RDielectric.pdf",
+				"manufacturer":	"KYOCERA AVX",
+				"mpn":	"0402ZC104KAT2A",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
+				},
+				"description":	null,
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"core"
+										},
+										"field":	{
+											"name":	"ctl"
+										}
+									},
+									"field":	{
+										"name":	"debug-if"
+									}
+								},
+								"field":	{
+									"name":	"ftdi"
+								}
+							},
+							"field":	{
+								"name":	"C"
+							}
+						},
+						"ref":	"U2",
+						"fileinfo":	{
+							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/.slm/deps/FTDI/src/components/FT2232HL.stanza",
+							"line":	161,
+							"column":	2
+						}
+					}],
+				"datasheet":	"https://ftdichip.com/wp-content/uploads/2024/05/DS_FT2232H.pdf",
+				"manufacturer":	"Future Technology Devices International",
+				"mpn":	"FT2232HL",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
+				},
+				"description":	"RES 12K OHM 1% 1/32W 01005",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"core"
+										},
+										"field":	{
+											"name":	"ctl"
+										}
+									},
+									"field":	{
+										"name":	"debug-if"
+									}
+								},
+								"field":	{
+									"name":	"ftdi"
+								}
+							},
+							"field":	{
+								"name":	"element"
+							}
+						},
+						"ref":	"R4",
+						"fileinfo":	null
+					}],
+				"datasheet":	"https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf",
+				"manufacturer":	"PANASONIC",
+				"mpn":	"ERJ-XGNF1202Y",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
 				"preferred":	false,
 				"query_properties":	null
 			}, {
@@ -135,7 +1045,7 @@
 						"ref":	"D1",
 						"fileinfo":	{
 							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/main.stanza",
-							"line":	17,
+							"line":	19,
 							"column":	2
 						}
 					}],
@@ -149,60 +1059,85 @@
 				"query_properties":	null
 			}, {
 				"status":	{
-					"code":	4,
-					"name":	"Not Enough Stock"
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
 				},
-				"description":	"62.5mW Thick Film Resistors ±100ppm/℃ ±1% 5.1kΩ 0402  Chip Resistor - Surface Mount ROHS",
+				"description":	"10V 15pF ±5% 0201  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
 								"ref":	{
-									"name":	"core"
+									"ref":	{
+										"ref":	{
+											"ref":	{
+												"name":	"core"
+											},
+											"field":	{
+												"name":	"ctl"
+											}
+										},
+										"field":	{
+											"name":	"debug-if"
+										}
+									},
+									"field":	{
+										"name":	"resonator"
+									}
 								},
 								"field":	{
-									"name":	"usb-if"
+									"name":	"load-caps"
 								}
 							},
-							"field":	{
-								"name":	"CC1-R"
-							}
+							"index":	1
 						},
-						"ref":	"R2",
-						"fileinfo":	null
+						"ref":	"C16",
+						"fileinfo":	{
+							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/.slm/deps/jsl/src/circuits/CrystalResonator.stanza",
+							"line":	82,
+							"column":	4
+						}
 					}, {
 						"inst":	{
 							"ref":	{
 								"ref":	{
-									"name":	"core"
+									"ref":	{
+										"ref":	{
+											"ref":	{
+												"name":	"core"
+											},
+											"field":	{
+												"name":	"ctl"
+											}
+										},
+										"field":	{
+											"name":	"debug-if"
+										}
+									},
+									"field":	{
+										"name":	"resonator"
+									}
 								},
 								"field":	{
-									"name":	"usb-if"
+									"name":	"load-caps"
 								}
 							},
-							"field":	{
-								"name":	"CC0-R"
-							}
+							"index":	0
 						},
-						"ref":	"R1",
-						"fileinfo":	null
+						"ref":	"C15",
+						"fileinfo":	{
+							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/.slm/deps/jsl/src/circuits/CrystalResonator.stanza",
+							"line":	82,
+							"column":	4
+						}
 					}],
-				"datasheet":	"//media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf",
-				"manufacturer":	"Samsung Electro-Mechanics",
-				"mpn":	"RC1005F512CS",
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_KEMET-CBR02C150J8GAC_C2217686.pdf",
+				"manufacturer":	"YAGEO",
+				"mpn":	"CBR02C150J8GAC",
 				"vendor":	null,
 				"sku":	null,
 				"price":	null,
 				"preferred":	false,
-				"query_properties":	{
-					"tolerance":	0.01,
-					"resistance":	5100,
-					"category":	"resistor",
-					"min-rated-temperature.max":	50,
-					"max-rated-temperature.min":	0,
-					"case":	["0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
-					"mounting":	"smd",
-					"_sellers":	["DigiKey"]
-				}
+				"query_properties":	null
 			}, {
 				"status":	{
 					"code":	4,
@@ -294,8 +1229,77 @@
 					"mounting":	"smd",
 					"_sellers":	["DigiKey"]
 				}
+			}, {
+				"status":	{
+					"code":	4,
+					"name":	"Not Enough Stock"
+				},
+				"description":	"62.5mW Thick Film Resistors ±100ppm/℃ ±1% 5.1kΩ 0402  Chip Resistor - Surface Mount ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"core"
+								},
+								"field":	{
+									"name":	"usb-if"
+								}
+							},
+							"field":	{
+								"name":	"CC1-R"
+							}
+						},
+						"ref":	"R2",
+						"fileinfo":	null
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"core"
+								},
+								"field":	{
+									"name":	"usb-if"
+								}
+							},
+							"field":	{
+								"name":	"CC0-R"
+							}
+						},
+						"ref":	"R1",
+						"fileinfo":	null
+					}],
+				"datasheet":	"//media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf",
+				"manufacturer":	"Samsung Electro-Mechanics",
+				"mpn":	"RC1005F512CS",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	{
+					"tolerance":	0.01,
+					"resistance":	5100,
+					"category":	"resistor",
+					"min-rated-temperature.max":	50,
+					"max-rated-temperature.min":	0,
+					"case":	["0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"mounting":	"smd",
+					"_sellers":	["DigiKey"]
+				}
 			}],
 		"entries":	[{
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
+			}, {
 			}, {
 			}, {
 			}, {
@@ -305,13 +1309,13 @@
 	},
 	"metrics":	[{
 			"name":	"Line Items",
-			"value":	6
+			"value":	19
 		}, {
 			"name":	"Components",
-			"value":	7
+			"value":	36
 		}, {
 			"name":	"Cost",
-			"value":	"$2.80"
+			"value":	"$4.61"
 		}],
 	"is_update":	false,
 	"old_bom":	{
@@ -408,7 +1412,7 @@
 						"ref":	"D1",
 						"fileinfo":	{
 							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/main.stanza",
-							"line":	17,
+							"line":	19,
 							"column":	2
 						}
 					}],

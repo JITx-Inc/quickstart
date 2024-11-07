@@ -9,6 +9,8 @@ defpackage main :
   import helpers
   import jsl/symbols/net-symbols
 
+  import ethernet_io/controller
+
 ; Define the shape/size of the board
 val board-shape = RoundedRectangle(30.0, 18.5, 0.25)
 
@@ -18,9 +20,12 @@ pcb-module communications-core :
   net (zener.A usb-if.VDD-USB.V-)
   net (zener.K usb-if.VDD-USB.V+)
 
+  inst ctl : controller 
+
 ; Module to run as a design
 pcb-module top-level :
   inst core : communications-core
+
 
 ; Set the :
 ;     design-name     - a directory with this name will be created in the "designs" directory
