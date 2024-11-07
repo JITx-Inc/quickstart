@@ -1,0 +1,41 @@
+; When renaming the stanza package name below, also rename it in the folder stanza.proj
+; See docs.jitx.com for help
+#use-added-syntax(jitx)
+defpackage components/MC-93LC46CT:
+  import core
+  import jitx
+  import jitx/commands
+
+  import jsl
+
+public pcb-component component :
+  description = "1K Serial EEPROM with 8-bit/16-bit Organization"
+  mpn = "93LC46CT-I/SN"
+  manufacturer = "Microchip Technology"
+  datasheet = "https://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf"
+  reference-prefix = "U"
+
+  pin-properties :
+    [pin:Ref    | pads:Int ... | side:Dir ]
+    [CS         | 1        | Left     ] ; Chip Select
+    [CLK        | 2        | Left     ] ; Serial Clock
+    [DI         | 3        | Left     ] ; Data Input
+    [DO         | 4        | Left    ] ; Data Output
+    [VSS        | 5        | Left     ] ; Ground
+    [VCC        | 8        | Right       ] ; Power Supply
+    [ORG        | 6        | Right     ] ; Organization Select
+    [NC         | 7        | Right    ] ; No Connection
+
+  val box = BoxSymbol(self)
+  val symb = create-symbol(box)
+  assign-symbol(symb)
+
+  val pkg = SOIC-N(
+    num-leads = 8,
+    lead-span = min-max(5.8, 6.2),
+    package-length = min-max(4.8, 5.0)
+    density-level = DensityLevelC
+  )
+  val lp = create-landpattern(pkg)
+  assign-landpattern(lp)
+

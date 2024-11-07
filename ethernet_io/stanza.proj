@@ -6,3 +6,4 @@ package board defined-in "board.stanza"
 package helpers defined-in "helpers.stanza"
 
 packages ethernet_io/* defined-in "src/"
+package components/MC-93LC46CT defined-in "src/components/MC-93LC46CT.stanza"

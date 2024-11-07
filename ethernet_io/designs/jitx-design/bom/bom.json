@@ -391,46 +391,6 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
-				"description":	"31.25mW Thick Film Resistors ±1% ±200ppm/℃ 2kΩ 01005  Chip Resistor - Surface Mount ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"name":	"core"
-									},
-									"field":	{
-										"name":	"ctl"
-									}
-								},
-								"field":	{
-									"name":	"debug-if"
-								}
-							},
-							"field":	{
-								"name":	"element"
-							}
-						},
-						"ref":	"R9",
-						"fileinfo":	null
-					}],
-				"datasheet":	"",
-				"manufacturer":	"Cyntec",
-				"mpn":	"PFR02S-202-FNH",
-				"vendor":	"DigiKey",
-				"sku":	"PFR02S-202-FNH",
-				"price":	0.003,
-				"preferred":	false,
-				"query_properties":	{
-					"resistance":	2000,
-					"tolerance":	0.01,
-					"category":	"resistor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
 				"description":	"CAP CER 1000PF 10V X7R 01005",
 				"insts":	[{
 						"inst":	{
@@ -478,6 +438,47 @@
 					"code":	5,
 					"name":	"Potential Alternate Vendors"
 				},
+				"description":	"RES 12K OHM 1% 1/32W 01005",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"core"
+										},
+										"field":	{
+											"name":	"ctl"
+										}
+									},
+									"field":	{
+										"name":	"debug-if"
+									}
+								},
+								"field":	{
+									"name":	"ftdi"
+								}
+							},
+							"field":	{
+								"name":	"element"
+							}
+						},
+						"ref":	"R4",
+						"fileinfo":	null
+					}],
+				"datasheet":	"https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf",
+				"manufacturer":	"PANASONIC",
+				"mpn":	"ERJ-XGNF1202Y",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
+				},
 				"description":	"Cap Cer 3.3UF 10V X7R 0805",
 				"insts":	[{
 						"inst":	{
@@ -509,6 +510,41 @@
 				"datasheet":	"http://www.calchipelectronics.com/pdf/gmc_series.pdf",
 				"manufacturer":	"CAL-CHIP ELECTRONICS, INC.",
 				"mpn":	"GMC21X7R335K10NT",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
+				},
+				"description":	"1K Serial EEPROM with 8-bit/16-bit Organization",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"core"
+								},
+								"field":	{
+									"name":	"ctl"
+								}
+							},
+							"field":	{
+								"name":	"EEPROM"
+							}
+						},
+						"ref":	"U3",
+						"fileinfo":	{
+							"filename":	"src/controller.stanza",
+							"line":	28,
+							"column":	2
+						}
+					}],
+				"datasheet":	"https://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf",
+				"manufacturer":	"Microchip Technology",
+				"mpn":	"93LC46CT-I/SN",
 				"vendor":	null,
 				"sku":	null,
 				"price":	null,
@@ -651,6 +687,51 @@
 				"datasheet":	"https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1107",
 				"manufacturer":	"PANASONIC",
 				"mpn":	"ERJ-U0XF4701Y",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
+				},
+				"description":	null,
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"core"
+										},
+										"field":	{
+											"name":	"ctl"
+										}
+									},
+									"field":	{
+										"name":	"debug-if"
+									}
+								},
+								"field":	{
+									"name":	"ftdi"
+								}
+							},
+							"field":	{
+								"name":	"C"
+							}
+						},
+						"ref":	"U2",
+						"fileinfo":	{
+							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/.slm/deps/FTDI/src/components/FT2232HL.stanza",
+							"line":	161,
+							"column":	2
+						}
+					}],
+				"datasheet":	"https://ftdichip.com/wp-content/uploads/2024/05/DS_FT2232H.pdf",
+				"manufacturer":	"Future Technology Devices International",
+				"mpn":	"FT2232HL",
 				"vendor":	null,
 				"sku":	null,
 				"price":	null,
@@ -946,92 +1027,6 @@
 					"code":	5,
 					"name":	"Potential Alternate Vendors"
 				},
-				"description":	null,
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"ref":	{
-											"name":	"core"
-										},
-										"field":	{
-											"name":	"ctl"
-										}
-									},
-									"field":	{
-										"name":	"debug-if"
-									}
-								},
-								"field":	{
-									"name":	"ftdi"
-								}
-							},
-							"field":	{
-								"name":	"C"
-							}
-						},
-						"ref":	"U2",
-						"fileinfo":	{
-							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/.slm/deps/FTDI/src/components/FT2232HL.stanza",
-							"line":	161,
-							"column":	2
-						}
-					}],
-				"datasheet":	"https://ftdichip.com/wp-content/uploads/2024/05/DS_FT2232H.pdf",
-				"manufacturer":	"Future Technology Devices International",
-				"mpn":	"FT2232HL",
-				"vendor":	null,
-				"sku":	null,
-				"price":	null,
-				"preferred":	false,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	5,
-					"name":	"Potential Alternate Vendors"
-				},
-				"description":	"RES 12K OHM 1% 1/32W 01005",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"ref":	{
-											"name":	"core"
-										},
-										"field":	{
-											"name":	"ctl"
-										}
-									},
-									"field":	{
-										"name":	"debug-if"
-									}
-								},
-								"field":	{
-									"name":	"ftdi"
-								}
-							},
-							"field":	{
-								"name":	"element"
-							}
-						},
-						"ref":	"R4",
-						"fileinfo":	null
-					}],
-				"datasheet":	"https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf",
-				"manufacturer":	"PANASONIC",
-				"mpn":	"ERJ-XGNF1202Y",
-				"vendor":	null,
-				"sku":	null,
-				"price":	null,
-				"preferred":	false,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	5,
-					"name":	"Potential Alternate Vendors"
-				},
 				"description":	"±5% Single 4.85V~5.36V 500mW 5.1V SOD-123  Zener Diodes ROHS",
 				"insts":	[{
 						"inst":	{
@@ -1052,6 +1047,42 @@
 				"datasheet":	"https://datasheet.lcsc.com/lcsc/1811131655_onsemi-MMSZ4689T1G_C236187.pdf",
 				"manufacturer":	"ON Semiconductor",
 				"mpn":	"MMSZ4689T1G",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
+				},
+				"description":	"31.25mW Thick Film Resistors ±1% ±200ppm/℃ 2kΩ 01005  Chip Resistor - Surface Mount ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"ctl"
+									}
+								},
+								"field":	{
+									"name":	"debug-if"
+								}
+							},
+							"field":	{
+								"name":	"element"
+							}
+						},
+						"ref":	"R9",
+						"fileinfo":	null
+					}],
+				"datasheet":	"",
+				"manufacturer":	"Cyntec",
+				"mpn":	"PFR02S-202-FNH",
 				"vendor":	null,
 				"sku":	null,
 				"price":	null,
@@ -1305,14 +1336,15 @@
 			}, {
 			}, {
 			}, {
+			}, {
 			}]
 	},
 	"metrics":	[{
 			"name":	"Line Items",
-			"value":	19
+			"value":	20
 		}, {
 			"name":	"Components",
-			"value":	36
+			"value":	37
 		}, {
 			"name":	"Cost",
 			"value":	"$4.61"
