@@ -28,6 +28,21 @@
     {"operation":"place","place":{"placements":[{"id":"CLKsELw1WxuLhKUnUTUAUM","pose":{"center":{"x":23.756,"y":-6.697},"angle":0},"side":"top"}]}},
     {"operation":"unplace","unplace":["CLKsELw1WxuLhKUnUTUAUM"]},
     {"operation":"place","place":{"placements":[{"id":"2MNHqagrNhxMdkYb2ojsnJ","pose":{"center":{"x":23.756,"y":-6.697},"angle":0},"side":"top"}]}},
-    {"operation":"place","place":{"placements":[{"id":"2MNHqagrNhxMdkYb2ojsnJ","pose":{"center":{"x":24.835968677390511,"y":-0.26627742099286422},"angle":0},"side":"top"}]}}
+    {"operation":"place","place":{"placements":[{"id":"2MNHqagrNhxMdkYb2ojsnJ","pose":{"center":{"x":24.835968677390511,"y":-0.26627742099286422},"angle":0},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"7XCuhHAjSqnHpaAiKdskiz","pose":{"center":{"x":23.81,"y":-7.98},"angle":0},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"7XCuhHAjSqnHpaAiKdskiz","pose":{"center":{"x":33.04326111895476,"y":4.0996047721663817},"angle":0},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"7XCuhHAjSqnHpaAiKdskiz","pose":{"center":{"x":29.433264290491245,"y":1.5135974286997289},"angle":0},"side":"top"}]}},
+    {"operation":"unplace","unplace":["7XCuhHAjSqnHpaAiKdskiz"]},
+    {"operation":"place","place":{"placements":[{"id":"GbCAy8GQwsBEtzEeXysF77","pose":{"center":{"x":20.26,"y":-8.53},"angle":0},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"C6o1jrSQYhPWw753DCnUra","pose":{"center":{"x":25.196919051511387,"y":-7.3613468247481038},"angle":0},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"GbCAy8GQwsBEtzEeXysF77","pose":{"center":{"x":30.487968703856929,"y":1.887524595702077},"angle":0},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"GbCAy8GQwsBEtzEeXysF77","pose":{"center":{"x":29.610494153477138,"y":1.0714119019922019},"angle":0},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"FssFydEbUAwaxqNnVUYPbJ","pose":{"center":{"x":30.943104640872086,"y":1.0735214890194467},"angle":0},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"FssFydEbUAwaxqNnVUYPbJ","pose":{"center":{"x":29.944588735052186,"y":-6.5086364060916582},"angle":0},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"GbCAy8GQwsBEtzEeXysF77","pose":{"center":{"x":29.8534747092391,"y":1.0019888860602115},"angle":180},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"3sd6o38Q2cs4VpFUKoZAWQ","pose":{"center":{"x":20.45,"y":-8.53},"angle":0},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"3sd6o38Q2cs4VpFUKoZAWQ","pose":{"center":{"x":34.927165692737759,"y":1.9406650176511011},"angle":0},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"3sd6o38Q2cs4VpFUKoZAWQ","pose":{"center":{"x":28.800584536739578,"y":3.1729235504439357},"angle":0},"side":"top"}]}},
+    {"operation":"place","place":{"placements":[{"id":"2MNHqagrNhxMdkYb2ojsnJ","pose":{"center":{"x":42.469414724116149,"y":12.715826558289397},"angle":0},"side":"top"},{"id":"GbCAy8GQwsBEtzEeXysF77","pose":{"center":{"x":47.486920755964739,"y":13.984092865342472},"angle":180},"side":"top"},{"id":"3sd6o38Q2cs4VpFUKoZAWQ","pose":{"center":{"x":46.434030583465216,"y":16.1550275297262},"angle":0},"side":"top"}]}}
   ]
 }

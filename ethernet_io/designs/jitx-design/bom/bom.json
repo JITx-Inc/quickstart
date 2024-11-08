@@ -47,6 +47,187 @@
 					"code":	1,
 					"name":	"Auto Selected"
 				},
+				"description":	"CAP CER 1000PF 10V X7R 01005",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"ctl"
+									}
+								},
+								"field":	{
+									"name":	"debug-if"
+								}
+							},
+							"field":	{
+								"name":	"C-b"
+							}
+						},
+						"ref":	"C17",
+						"fileinfo":	{
+							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/.slm/deps/FTDI/src/DebugIF.stanza",
+							"line":	142,
+							"column":	6
+						}
+					}],
+				"datasheet":	"https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf?ref_disty=digikey",
+				"manufacturer":	"TDK Corp",
+				"mpn":	"C0402X7R1A102K020BC",
+				"vendor":	"DigiKey",
+				"sku":	"C0402X7R1A102K020BC",
+				"price":	0.17,
+				"preferred":	false,
+				"query_properties":	{
+					"min-rated-voltage":	10,
+					"capacitance":	1e-09,
+					"tolerance":	0.1,
+					"type":	"ceramic",
+					"temperature-coefficient.code":	"X7R",
+					"category":	"capacitor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 2.2uF ±20% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"ctl"
+									}
+								},
+								"field":	{
+									"name":	"EEPROM"
+								}
+							},
+							"field":	{
+								"name":	"element"
+							}
+						},
+						"ref":	"C18",
+						"fileinfo":	null
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2108051830_Wurth-Elektronik-885012105013_C2176943.pdf",
+				"manufacturer":	"Wurth Elektronik",
+				"mpn":	"885012105013",
+				"vendor":	"DigiKey",
+				"sku":	"885012105013",
+				"price":	0.17,
+				"preferred":	false,
+				"query_properties":	{
+					"capacitance":	2.2e-06,
+					"type":	"ceramic",
+					"temperature-coefficient.code":	["X7R", "X5R"],
+					"rated-voltage":	6,
+					"category":	"capacitor",
+					"min-rated-temperature.max":	50,
+					"max-rated-temperature.min":	0,
+					"case":	["0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"mounting":	"smd",
+					"_sellers":	["DigiKey"]
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 4.7uF X7R ±10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"ref":	{
+												"name":	"core"
+											},
+											"field":	{
+												"name":	"ctl"
+											}
+										},
+										"field":	{
+											"name":	"debug-if"
+										}
+									},
+									"field":	{
+										"name":	"ftdi"
+									}
+								},
+								"field":	{
+									"name":	"VPLL-byp"
+								}
+							},
+							"field":	{
+								"name":	"elem"
+							}
+						},
+						"ref":	"C13",
+						"fileinfo":	null
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"ref":	{
+												"name":	"core"
+											},
+											"field":	{
+												"name":	"ctl"
+											}
+										},
+										"field":	{
+											"name":	"debug-if"
+										}
+									},
+									"field":	{
+										"name":	"ftdi"
+									}
+								},
+								"field":	{
+									"name":	"VPHY-byp"
+								}
+							},
+							"field":	{
+								"name":	"elem"
+							}
+						},
+						"ref":	"C11",
+						"fileinfo":	null
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2201131300_Murata-Electronics-GRM188Z71A475KE15D_C913474.pdf",
+				"manufacturer":	"MURATA",
+				"mpn":	"GRM188Z71A475KE15D",
+				"vendor":	"DigiKey",
+				"sku":	"GRM188Z71A475KE15D",
+				"price":	0.24,
+				"preferred":	false,
+				"query_properties":	{
+					"capacitance":	4.7e-06,
+					"tolerance":	0.1,
+					"type":	"ceramic",
+					"_sort":	["rated-voltage"],
+					"case":	["0603", "0805", "1206"],
+					"temperature-coefficient.code":	"X7R",
+					"min-rated-voltage":	6.6,
+					"max-rated-voltage":	16,
+					"category":	"capacitor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
 				"description":	"Ferrite, 0603, 220Ω @ 100000000000.0 Hz, 0.05 Ω DC",
 				"insts":	[{
 						"inst":	{
@@ -117,6 +298,50 @@
 				"price":	0.1,
 				"preferred":	false,
 				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"RES SMD 10K OHM 5% 1/16W 0402",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"ctl"
+									}
+								},
+								"field":	{
+									"name":	"EEPROM"
+								}
+							},
+							"field":	{
+								"name":	"element"
+							}
+						},
+						"ref":	"R13",
+						"fileinfo":	null
+					}],
+				"datasheet":	"https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf",
+				"manufacturer":	"BOURNS",
+				"mpn":	"CR0402-JW-103GLF",
+				"vendor":	"DigiKey",
+				"sku":	"CR0402-JW-103GLF",
+				"price":	0.00163,
+				"preferred":	false,
+				"query_properties":	{
+					"resistance":	10000,
+					"category":	"resistor",
+					"min-rated-temperature.max":	50,
+					"max-rated-temperature.min":	0,
+					"case":	["0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"mounting":	"smd",
+					"_sellers":	["DigiKey"]
+				}
 			}, {
 				"status":	{
 					"code":	1,
@@ -301,222 +526,6 @@
 				"query_properties":	null
 			}, {
 				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"10V 4.7uF X7R ±10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"ref":	{
-											"ref":	{
-												"name":	"core"
-											},
-											"field":	{
-												"name":	"ctl"
-											}
-										},
-										"field":	{
-											"name":	"debug-if"
-										}
-									},
-									"field":	{
-										"name":	"ftdi"
-									}
-								},
-								"field":	{
-									"name":	"VPLL-byp"
-								}
-							},
-							"field":	{
-								"name":	"elem"
-							}
-						},
-						"ref":	"C13",
-						"fileinfo":	null
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"ref":	{
-											"ref":	{
-												"name":	"core"
-											},
-											"field":	{
-												"name":	"ctl"
-											}
-										},
-										"field":	{
-											"name":	"debug-if"
-										}
-									},
-									"field":	{
-										"name":	"ftdi"
-									}
-								},
-								"field":	{
-									"name":	"VPHY-byp"
-								}
-							},
-							"field":	{
-								"name":	"elem"
-							}
-						},
-						"ref":	"C11",
-						"fileinfo":	null
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2201131300_Murata-Electronics-GRM188Z71A475KE15D_C913474.pdf",
-				"manufacturer":	"MURATA",
-				"mpn":	"GRM188Z71A475KE15D",
-				"vendor":	"DigiKey",
-				"sku":	"GRM188Z71A475KE15D",
-				"price":	0.24,
-				"preferred":	false,
-				"query_properties":	{
-					"capacitance":	4.7e-06,
-					"tolerance":	0.1,
-					"type":	"ceramic",
-					"_sort":	["rated-voltage"],
-					"case":	["0603", "0805", "1206"],
-					"temperature-coefficient.code":	"X7R",
-					"min-rated-voltage":	6.6,
-					"max-rated-voltage":	16,
-					"category":	"capacitor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"CAP CER 1000PF 10V X7R 01005",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"name":	"core"
-									},
-									"field":	{
-										"name":	"ctl"
-									}
-								},
-								"field":	{
-									"name":	"debug-if"
-								}
-							},
-							"field":	{
-								"name":	"C-b"
-							}
-						},
-						"ref":	"C17",
-						"fileinfo":	{
-							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/.slm/deps/FTDI/src/DebugIF.stanza",
-							"line":	142,
-							"column":	6
-						}
-					}],
-				"datasheet":	"https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf?ref_disty=digikey",
-				"manufacturer":	"TDK Corp",
-				"mpn":	"C0402X7R1A102K020BC",
-				"vendor":	"DigiKey",
-				"sku":	"C0402X7R1A102K020BC",
-				"price":	0.17,
-				"preferred":	false,
-				"query_properties":	{
-					"min-rated-voltage":	10,
-					"capacitance":	1e-09,
-					"tolerance":	0.1,
-					"type":	"ceramic",
-					"temperature-coefficient.code":	"X7R",
-					"category":	"capacitor"
-				}
-			}, {
-				"status":	{
-					"code":	5,
-					"name":	"Potential Alternate Vendors"
-				},
-				"description":	"RES 12K OHM 1% 1/32W 01005",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"ref":	{
-											"name":	"core"
-										},
-										"field":	{
-											"name":	"ctl"
-										}
-									},
-									"field":	{
-										"name":	"debug-if"
-									}
-								},
-								"field":	{
-									"name":	"ftdi"
-								}
-							},
-							"field":	{
-								"name":	"element"
-							}
-						},
-						"ref":	"R4",
-						"fileinfo":	null
-					}],
-				"datasheet":	"https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf",
-				"manufacturer":	"PANASONIC",
-				"mpn":	"ERJ-XGNF1202Y",
-				"vendor":	null,
-				"sku":	null,
-				"price":	null,
-				"preferred":	false,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	5,
-					"name":	"Potential Alternate Vendors"
-				},
-				"description":	"Cap Cer 3.3UF 10V X7R 0805",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"ref":	{
-											"name":	"core"
-										},
-										"field":	{
-											"name":	"ctl"
-										}
-									},
-									"field":	{
-										"name":	"debug-if"
-									}
-								},
-								"field":	{
-									"name":	"ftdi"
-								}
-							},
-							"field":	{
-								"name":	"VREGOUT-byp"
-							}
-						},
-						"ref":	"C3",
-						"fileinfo":	null
-					}],
-				"datasheet":	"http://www.calchipelectronics.com/pdf/gmc_series.pdf",
-				"manufacturer":	"CAL-CHIP ELECTRONICS, INC.",
-				"mpn":	"GMC21X7R335K10NT",
-				"vendor":	null,
-				"sku":	null,
-				"price":	null,
-				"preferred":	false,
-				"query_properties":	null
-			}, {
-				"status":	{
 					"code":	5,
 					"name":	"Potential Alternate Vendors"
 				},
@@ -525,10 +534,15 @@
 						"inst":	{
 							"ref":	{
 								"ref":	{
-									"name":	"core"
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"ctl"
+									}
 								},
 								"field":	{
-									"name":	"ctl"
+									"name":	"EEPROM"
 								}
 							},
 							"field":	{
@@ -537,71 +551,14 @@
 						},
 						"ref":	"U3",
 						"fileinfo":	{
-							"filename":	"src/controller.stanza",
-							"line":	28,
+							"filename":	"src/components/MC-93LC46CT.stanza",
+							"line":	46,
 							"column":	2
 						}
 					}],
 				"datasheet":	"https://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf",
 				"manufacturer":	"Microchip Technology",
 				"mpn":	"93LC46CT-I/SN",
-				"vendor":	null,
-				"sku":	null,
-				"price":	null,
-				"preferred":	false,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	5,
-					"name":	"Potential Alternate Vendors"
-				},
-				"description":	"50mW ±1% 0Ω 0201  Chip Resistor - Surface Mount ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"name":	"core"
-									},
-									"field":	{
-										"name":	"ctl"
-									}
-								},
-								"field":	{
-									"name":	"debug-if"
-								}
-							},
-							"field":	{
-								"name":	"element"
-							}
-						},
-						"ref":	"R10",
-						"fileinfo":	null
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"name":	"core"
-									},
-									"field":	{
-										"name":	"ctl"
-									}
-								},
-								"field":	{
-									"name":	"debug-if"
-								}
-							},
-							"field":	{
-								"name":	"element"
-							}
-						},
-						"ref":	"R5",
-						"fileinfo":	null
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_UNI-ROYAL-Uniroyal-Elec-NQ01WMF0000TEE_C2779702.pdf",
-				"manufacturer":	"Uniroyal",
-				"mpn":	"NQ01WMF0000TEE",
 				"vendor":	null,
 				"sku":	null,
 				"price":	null,
@@ -647,91 +604,6 @@
 				"datasheet":	null,
 				"manufacturer":	"EPSON",
 				"mpn":	"FA-238V 12.0000MB-W3",
-				"vendor":	null,
-				"sku":	null,
-				"price":	null,
-				"preferred":	false,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	5,
-					"name":	"Potential Alternate Vendors"
-				},
-				"description":	"RES 4.7K OHM 1% 1/32W 01005",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"name":	"core"
-									},
-									"field":	{
-										"name":	"ctl"
-									}
-								},
-								"field":	{
-									"name":	"debug-if"
-								}
-							},
-							"field":	{
-								"name":	"R-t"
-							}
-						},
-						"ref":	"R11",
-						"fileinfo":	{
-							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/.slm/deps/FTDI/src/DebugIF.stanza",
-							"line":	140,
-							"column":	6
-						}
-					}],
-				"datasheet":	"https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1107",
-				"manufacturer":	"PANASONIC",
-				"mpn":	"ERJ-U0XF4701Y",
-				"vendor":	null,
-				"sku":	null,
-				"price":	null,
-				"preferred":	false,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	5,
-					"name":	"Potential Alternate Vendors"
-				},
-				"description":	null,
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"ref":	{
-											"name":	"core"
-										},
-										"field":	{
-											"name":	"ctl"
-										}
-									},
-									"field":	{
-										"name":	"debug-if"
-									}
-								},
-								"field":	{
-									"name":	"ftdi"
-								}
-							},
-							"field":	{
-								"name":	"C"
-							}
-						},
-						"ref":	"U2",
-						"fileinfo":	{
-							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/.slm/deps/FTDI/src/components/FT2232HL.stanza",
-							"line":	161,
-							"column":	2
-						}
-					}],
-				"datasheet":	"https://ftdichip.com/wp-content/uploads/2024/05/DS_FT2232H.pdf",
-				"manufacturer":	"Future Technology Devices International",
-				"mpn":	"FT2232HL",
 				"vendor":	null,
 				"sku":	null,
 				"price":	null,
@@ -1027,6 +899,132 @@
 					"code":	5,
 					"name":	"Potential Alternate Vendors"
 				},
+				"description":	"RES 4.7K OHM 1% 1/32W 01005",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"ctl"
+									}
+								},
+								"field":	{
+									"name":	"debug-if"
+								}
+							},
+							"field":	{
+								"name":	"R-t"
+							}
+						},
+						"ref":	"R11",
+						"fileinfo":	{
+							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/.slm/deps/FTDI/src/DebugIF.stanza",
+							"line":	140,
+							"column":	6
+						}
+					}],
+				"datasheet":	"https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1107",
+				"manufacturer":	"PANASONIC",
+				"mpn":	"ERJ-U0XF4701Y",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
+				},
+				"description":	null,
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"core"
+										},
+										"field":	{
+											"name":	"ctl"
+										}
+									},
+									"field":	{
+										"name":	"debug-if"
+									}
+								},
+								"field":	{
+									"name":	"ftdi"
+								}
+							},
+							"field":	{
+								"name":	"C"
+							}
+						},
+						"ref":	"U2",
+						"fileinfo":	{
+							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/.slm/deps/FTDI/src/components/FT2232HL.stanza",
+							"line":	161,
+							"column":	2
+						}
+					}],
+				"datasheet":	"https://ftdichip.com/wp-content/uploads/2024/05/DS_FT2232H.pdf",
+				"manufacturer":	"Future Technology Devices International",
+				"mpn":	"FT2232HL",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
+				},
+				"description":	"Cap Cer 3.3UF 10V X7R 0805",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"core"
+										},
+										"field":	{
+											"name":	"ctl"
+										}
+									},
+									"field":	{
+										"name":	"debug-if"
+									}
+								},
+								"field":	{
+									"name":	"ftdi"
+								}
+							},
+							"field":	{
+								"name":	"VREGOUT-byp"
+							}
+						},
+						"ref":	"C3",
+						"fileinfo":	null
+					}],
+				"datasheet":	"http://www.calchipelectronics.com/pdf/gmc_series.pdf",
+				"manufacturer":	"CAL-CHIP ELECTRONICS, INC.",
+				"mpn":	"GMC21X7R335K10NT",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
+				},
 				"description":	"±5% Single 4.85V~5.36V 500mW 5.1V SOD-123  Zener Diodes ROHS",
 				"insts":	[{
 						"inst":	{
@@ -1171,10 +1169,10 @@
 				"query_properties":	null
 			}, {
 				"status":	{
-					"code":	4,
-					"name":	"Not Enough Stock"
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
 				},
-				"description":	"RES 0 OHM JUMPER 1/10W 0402",
+				"description":	"50mW ±1% 0Ω 0201  Chip Resistor - Surface Mount ROHS",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
@@ -1183,29 +1181,139 @@
 										"name":	"core"
 									},
 									"field":	{
-										"name":	"usb-if"
+										"name":	"ctl"
 									}
 								},
 								"field":	{
-									"name":	"shield-term"
+									"name":	"debug-if"
 								}
 							},
 							"field":	{
-								"name":	"R"
+								"name":	"element"
 							}
 						},
-						"ref":	"R3",
+						"ref":	"R10",
+						"fileinfo":	null
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"ctl"
+									}
+								},
+								"field":	{
+									"name":	"debug-if"
+								}
+							},
+							"field":	{
+								"name":	"element"
+							}
+						},
+						"ref":	"R5",
 						"fileinfo":	null
 					}],
-				"datasheet":	"https://www.vishay.com/docs/28705/mcx0x0xpro.pdf",
-				"manufacturer":	"VISHAY",
-				"mpn":	"MCS04020Z0000ZEF00",
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_UNI-ROYAL-Uniroyal-Elec-NQ01WMF0000TEE_C2779702.pdf",
+				"manufacturer":	"Uniroyal",
+				"mpn":	"NQ01WMF0000TEE",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
+				},
+				"description":	"RES 12K OHM 1% 1/32W 01005",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"core"
+										},
+										"field":	{
+											"name":	"ctl"
+										}
+									},
+									"field":	{
+										"name":	"debug-if"
+									}
+								},
+								"field":	{
+									"name":	"ftdi"
+								}
+							},
+							"field":	{
+								"name":	"element"
+							}
+						},
+						"ref":	"R4",
+						"fileinfo":	null
+					}],
+				"datasheet":	"https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf",
+				"manufacturer":	"PANASONIC",
+				"mpn":	"ERJ-XGNF1202Y",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	4,
+					"name":	"Not Enough Stock"
+				},
+				"description":	"62.5mW Thick Film Resistors ±100ppm/℃ ±1% 5.1kΩ 0402  Chip Resistor - Surface Mount ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"core"
+								},
+								"field":	{
+									"name":	"usb-if"
+								}
+							},
+							"field":	{
+								"name":	"CC1-R"
+							}
+						},
+						"ref":	"R2",
+						"fileinfo":	null
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"core"
+								},
+								"field":	{
+									"name":	"usb-if"
+								}
+							},
+							"field":	{
+								"name":	"CC0-R"
+							}
+						},
+						"ref":	"R1",
+						"fileinfo":	null
+					}],
+				"datasheet":	"//media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf",
+				"manufacturer":	"Samsung Electro-Mechanics",
+				"mpn":	"RC1005F512CS",
 				"vendor":	null,
 				"sku":	null,
 				"price":	null,
 				"preferred":	false,
 				"query_properties":	{
-					"resistance":	0,
+					"tolerance":	0.01,
+					"resistance":	5100,
 					"category":	"resistor",
 					"min-rated-temperature.max":	50,
 					"max-rated-temperature.min":	0,
@@ -1265,50 +1373,38 @@
 					"code":	4,
 					"name":	"Not Enough Stock"
 				},
-				"description":	"62.5mW Thick Film Resistors ±100ppm/℃ ±1% 5.1kΩ 0402  Chip Resistor - Surface Mount ROHS",
+				"description":	"RES 0 OHM JUMPER 1/10W 0402",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
 								"ref":	{
-									"name":	"core"
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"usb-if"
+									}
 								},
 								"field":	{
-									"name":	"usb-if"
+									"name":	"shield-term"
 								}
 							},
 							"field":	{
-								"name":	"CC1-R"
+								"name":	"R"
 							}
 						},
-						"ref":	"R2",
-						"fileinfo":	null
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"core"
-								},
-								"field":	{
-									"name":	"usb-if"
-								}
-							},
-							"field":	{
-								"name":	"CC0-R"
-							}
-						},
-						"ref":	"R1",
+						"ref":	"R3",
 						"fileinfo":	null
 					}],
-				"datasheet":	"//media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf",
-				"manufacturer":	"Samsung Electro-Mechanics",
-				"mpn":	"RC1005F512CS",
+				"datasheet":	"https://www.vishay.com/docs/28705/mcx0x0xpro.pdf",
+				"manufacturer":	"VISHAY",
+				"mpn":	"MCS04020Z0000ZEF00",
 				"vendor":	null,
 				"sku":	null,
 				"price":	null,
 				"preferred":	false,
 				"query_properties":	{
-					"tolerance":	0.01,
-					"resistance":	5100,
+					"resistance":	0,
 					"category":	"resistor",
 					"min-rated-temperature.max":	50,
 					"max-rated-temperature.min":	0,
@@ -1318,6 +1414,8 @@
 				}
 			}],
 		"entries":	[{
+			}, {
+			}, {
 			}, {
 			}, {
 			}, {
@@ -1341,17 +1439,198 @@
 	},
 	"metrics":	[{
 			"name":	"Line Items",
-			"value":	20
+			"value":	22
 		}, {
 			"name":	"Components",
-			"value":	37
+			"value":	39
 		}, {
 			"name":	"Cost",
-			"value":	"$4.61"
+			"value":	"$4.78"
 		}],
 	"is_update":	false,
 	"old_bom":	{
 		"rows":	[{
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"CAP CER 1000PF 10V X7R 01005",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"ctl"
+									}
+								},
+								"field":	{
+									"name":	"debug-if"
+								}
+							},
+							"field":	{
+								"name":	"C-b"
+							}
+						},
+						"ref":	"C17",
+						"fileinfo":	{
+							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/.slm/deps/FTDI/src/DebugIF.stanza",
+							"line":	142,
+							"column":	6
+						}
+					}],
+				"datasheet":	"https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf?ref_disty=digikey",
+				"manufacturer":	"TDK Corp",
+				"mpn":	"C0402X7R1A102K020BC",
+				"vendor":	"DigiKey",
+				"sku":	"C0402X7R1A102K020BC",
+				"price":	0.17,
+				"preferred":	false,
+				"query_properties":	{
+					"min-rated-voltage":	10,
+					"capacitance":	1e-09,
+					"tolerance":	0.1,
+					"type":	"ceramic",
+					"temperature-coefficient.code":	"X7R",
+					"category":	"capacitor"
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 2.2uF ±20% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"ctl"
+									}
+								},
+								"field":	{
+									"name":	"EEPROM"
+								}
+							},
+							"field":	{
+								"name":	"element"
+							}
+						},
+						"ref":	"C18",
+						"fileinfo":	null
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2108051830_Wurth-Elektronik-885012105013_C2176943.pdf",
+				"manufacturer":	"Wurth Elektronik",
+				"mpn":	"885012105013",
+				"vendor":	"DigiKey",
+				"sku":	"885012105013",
+				"price":	0.17,
+				"preferred":	false,
+				"query_properties":	{
+					"capacitance":	2.2e-06,
+					"type":	"ceramic",
+					"temperature-coefficient.code":	["X7R", "X5R"],
+					"rated-voltage":	6,
+					"category":	"capacitor",
+					"min-rated-temperature.max":	50,
+					"max-rated-temperature.min":	0,
+					"case":	["0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"mounting":	"smd",
+					"_sellers":	["DigiKey"]
+				}
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"10V 4.7uF X7R ±10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"ref":	{
+												"name":	"core"
+											},
+											"field":	{
+												"name":	"ctl"
+											}
+										},
+										"field":	{
+											"name":	"debug-if"
+										}
+									},
+									"field":	{
+										"name":	"ftdi"
+									}
+								},
+								"field":	{
+									"name":	"VPLL-byp"
+								}
+							},
+							"field":	{
+								"name":	"elem"
+							}
+						},
+						"ref":	"C13",
+						"fileinfo":	null
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"ref":	{
+												"name":	"core"
+											},
+											"field":	{
+												"name":	"ctl"
+											}
+										},
+										"field":	{
+											"name":	"debug-if"
+										}
+									},
+									"field":	{
+										"name":	"ftdi"
+									}
+								},
+								"field":	{
+									"name":	"VPHY-byp"
+								}
+							},
+							"field":	{
+								"name":	"elem"
+							}
+						},
+						"ref":	"C11",
+						"fileinfo":	null
+					}],
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2201131300_Murata-Electronics-GRM188Z71A475KE15D_C913474.pdf",
+				"manufacturer":	"MURATA",
+				"mpn":	"GRM188Z71A475KE15D",
+				"vendor":	"DigiKey",
+				"sku":	"GRM188Z71A475KE15D",
+				"price":	0.24,
+				"preferred":	false,
+				"query_properties":	{
+					"capacitance":	4.7e-06,
+					"tolerance":	0.1,
+					"type":	"ceramic",
+					"_sort":	["rated-voltage"],
+					"case":	["0603", "0805", "1206"],
+					"temperature-coefficient.code":	"X7R",
+					"min-rated-voltage":	6.6,
+					"max-rated-voltage":	16,
+					"category":	"capacitor"
+				}
+			}, {
 				"status":	{
 					"code":	1,
 					"name":	"Auto Selected"
@@ -1426,6 +1705,50 @@
 				"price":	0.1,
 				"preferred":	false,
 				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	1,
+					"name":	"Auto Selected"
+				},
+				"description":	"RES SMD 10K OHM 5% 1/16W 0402",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"ctl"
+									}
+								},
+								"field":	{
+									"name":	"EEPROM"
+								}
+							},
+							"field":	{
+								"name":	"element"
+							}
+						},
+						"ref":	"R13",
+						"fileinfo":	null
+					}],
+				"datasheet":	"https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf",
+				"manufacturer":	"BOURNS",
+				"mpn":	"CR0402-JW-103GLF",
+				"vendor":	"DigiKey",
+				"sku":	"CR0402-JW-103GLF",
+				"price":	0.00163,
+				"preferred":	false,
+				"query_properties":	{
+					"resistance":	10000,
+					"category":	"resistor",
+					"min-rated-temperature.max":	50,
+					"max-rated-temperature.min":	0,
+					"case":	["0402", "1005m", "0505", "1414m", "0508", "1220m", "Wide 0805", "0603", "1608m", "0612", "1632m", "Wide 1206", "0805", "2012m", "1111", "2828m", "1206", "3216m", "1210", "3225m", "1218", "3246m", "Wide 1812", "1225", "3263m", "Wide 2512", "1530", "3876m", "Wide 3015", "1808", "4520m", "1812", "4532m", "1825", "4564m", "1835", "4589", "Wide 3518", "5020m", "2010", "5025m", "2043", "Wide 4320", "2220", "5750m", "2225", "5763m", "2312", "6032m", "2512", "6331m", "2725", "7142m", "2728", "7142m", "Wide 2827", "2816", "2817", "7142m", "2953", "Wide 5929", "3920", "1052m"],
+					"mounting":	"smd",
+					"_sellers":	["DigiKey"]
+				}
 			}, {
 				"status":	{
 					"code":	1,
@@ -1610,97 +1933,10 @@
 				"query_properties":	null
 			}, {
 				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
 				},
-				"description":	"10V 4.7uF X7R ±10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"ref":	{
-											"ref":	{
-												"name":	"core"
-											},
-											"field":	{
-												"name":	"ctl"
-											}
-										},
-										"field":	{
-											"name":	"debug-if"
-										}
-									},
-									"field":	{
-										"name":	"ftdi"
-									}
-								},
-								"field":	{
-									"name":	"VPLL-byp"
-								}
-							},
-							"field":	{
-								"name":	"elem"
-							}
-						},
-						"ref":	"C13",
-						"fileinfo":	null
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"ref":	{
-											"ref":	{
-												"name":	"core"
-											},
-											"field":	{
-												"name":	"ctl"
-											}
-										},
-										"field":	{
-											"name":	"debug-if"
-										}
-									},
-									"field":	{
-										"name":	"ftdi"
-									}
-								},
-								"field":	{
-									"name":	"VPHY-byp"
-								}
-							},
-							"field":	{
-								"name":	"elem"
-							}
-						},
-						"ref":	"C11",
-						"fileinfo":	null
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2201131300_Murata-Electronics-GRM188Z71A475KE15D_C913474.pdf",
-				"manufacturer":	"MURATA",
-				"mpn":	"GRM188Z71A475KE15D",
-				"vendor":	"DigiKey",
-				"sku":	"GRM188Z71A475KE15D",
-				"price":	0.24,
-				"preferred":	false,
-				"query_properties":	{
-					"capacitance":	4.7e-06,
-					"tolerance":	0.1,
-					"type":	"ceramic",
-					"_sort":	["rated-voltage"],
-					"case":	["0603", "0805", "1206"],
-					"temperature-coefficient.code":	"X7R",
-					"min-rated-voltage":	6.6,
-					"max-rated-voltage":	16,
-					"category":	"capacitor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"31.25mW Thick Film Resistors ±1% ±200ppm/℃ 2kΩ 01005  Chip Resistor - Surface Mount ROHS",
+				"description":	"1K Serial EEPROM with 8-bit/16-bit Organization",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
@@ -1713,168 +1949,23 @@
 									}
 								},
 								"field":	{
-									"name":	"debug-if"
+									"name":	"EEPROM"
 								}
 							},
 							"field":	{
-								"name":	"element"
+								"name":	"EEPROM"
 							}
 						},
-						"ref":	"R9",
-						"fileinfo":	null
-					}],
-				"datasheet":	"",
-				"manufacturer":	"Cyntec",
-				"mpn":	"PFR02S-202-FNH",
-				"vendor":	"DigiKey",
-				"sku":	"PFR02S-202-FNH",
-				"price":	0.003,
-				"preferred":	false,
-				"query_properties":	{
-					"resistance":	2000,
-					"tolerance":	0.01,
-					"category":	"resistor"
-				}
-			}, {
-				"status":	{
-					"code":	1,
-					"name":	"Auto Selected"
-				},
-				"description":	"CAP CER 1000PF 10V X7R 01005",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"name":	"core"
-									},
-									"field":	{
-										"name":	"ctl"
-									}
-								},
-								"field":	{
-									"name":	"debug-if"
-								}
-							},
-							"field":	{
-								"name":	"C-b"
-							}
-						},
-						"ref":	"C17",
+						"ref":	"U3",
 						"fileinfo":	{
-							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/.slm/deps/FTDI/src/DebugIF.stanza",
-							"line":	142,
-							"column":	6
+							"filename":	"src/components/MC-93LC46CT.stanza",
+							"line":	46,
+							"column":	2
 						}
 					}],
-				"datasheet":	"https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf?ref_disty=digikey",
-				"manufacturer":	"TDK Corp",
-				"mpn":	"C0402X7R1A102K020BC",
-				"vendor":	"DigiKey",
-				"sku":	"C0402X7R1A102K020BC",
-				"price":	0.17,
-				"preferred":	false,
-				"query_properties":	{
-					"min-rated-voltage":	10,
-					"capacitance":	1e-09,
-					"tolerance":	0.1,
-					"type":	"ceramic",
-					"temperature-coefficient.code":	"X7R",
-					"category":	"capacitor"
-				}
-			}, {
-				"status":	{
-					"code":	5,
-					"name":	"Potential Alternate Vendors"
-				},
-				"description":	"Cap Cer 3.3UF 10V X7R 0805",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"ref":	{
-											"name":	"core"
-										},
-										"field":	{
-											"name":	"ctl"
-										}
-									},
-									"field":	{
-										"name":	"debug-if"
-									}
-								},
-								"field":	{
-									"name":	"ftdi"
-								}
-							},
-							"field":	{
-								"name":	"VREGOUT-byp"
-							}
-						},
-						"ref":	"C3",
-						"fileinfo":	null
-					}],
-				"datasheet":	"http://www.calchipelectronics.com/pdf/gmc_series.pdf",
-				"manufacturer":	"CAL-CHIP ELECTRONICS, INC.",
-				"mpn":	"GMC21X7R335K10NT",
-				"vendor":	null,
-				"sku":	null,
-				"price":	null,
-				"preferred":	false,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	5,
-					"name":	"Potential Alternate Vendors"
-				},
-				"description":	"50mW ±1% 0Ω 0201  Chip Resistor - Surface Mount ROHS",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"name":	"core"
-									},
-									"field":	{
-										"name":	"ctl"
-									}
-								},
-								"field":	{
-									"name":	"debug-if"
-								}
-							},
-							"field":	{
-								"name":	"element"
-							}
-						},
-						"ref":	"R10",
-						"fileinfo":	null
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"name":	"core"
-									},
-									"field":	{
-										"name":	"ctl"
-									}
-								},
-								"field":	{
-									"name":	"debug-if"
-								}
-							},
-							"field":	{
-								"name":	"element"
-							}
-						},
-						"ref":	"R5",
-						"fileinfo":	null
-					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_UNI-ROYAL-Uniroyal-Elec-NQ01WMF0000TEE_C2779702.pdf",
-				"manufacturer":	"Uniroyal",
-				"mpn":	"NQ01WMF0000TEE",
+				"datasheet":	"https://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf",
+				"manufacturer":	"Microchip Technology",
+				"mpn":	"93LC46CT-I/SN",
 				"vendor":	null,
 				"sku":	null,
 				"price":	null,
@@ -1920,46 +2011,6 @@
 				"datasheet":	null,
 				"manufacturer":	"EPSON",
 				"mpn":	"FA-238V 12.0000MB-W3",
-				"vendor":	null,
-				"sku":	null,
-				"price":	null,
-				"preferred":	false,
-				"query_properties":	null
-			}, {
-				"status":	{
-					"code":	5,
-					"name":	"Potential Alternate Vendors"
-				},
-				"description":	"RES 4.7K OHM 1% 1/32W 01005",
-				"insts":	[{
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"ref":	{
-										"name":	"core"
-									},
-									"field":	{
-										"name":	"ctl"
-									}
-								},
-								"field":	{
-									"name":	"debug-if"
-								}
-							},
-							"field":	{
-								"name":	"R-t"
-							}
-						},
-						"ref":	"R11",
-						"fileinfo":	{
-							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/.slm/deps/FTDI/src/DebugIF.stanza",
-							"line":	140,
-							"column":	6
-						}
-					}],
-				"datasheet":	"https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1107",
-				"manufacturer":	"PANASONIC",
-				"mpn":	"ERJ-U0XF4701Y",
 				"vendor":	null,
 				"sku":	null,
 				"price":	null,
@@ -2255,6 +2306,46 @@
 					"code":	5,
 					"name":	"Potential Alternate Vendors"
 				},
+				"description":	"RES 4.7K OHM 1% 1/32W 01005",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"ctl"
+									}
+								},
+								"field":	{
+									"name":	"debug-if"
+								}
+							},
+							"field":	{
+								"name":	"R-t"
+							}
+						},
+						"ref":	"R11",
+						"fileinfo":	{
+							"filename":	"/Users/duncan/projects/quickstart/ethernet_io/.slm/deps/FTDI/src/DebugIF.stanza",
+							"line":	140,
+							"column":	6
+						}
+					}],
+				"datasheet":	"https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1107",
+				"manufacturer":	"PANASONIC",
+				"mpn":	"ERJ-U0XF4701Y",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
+				},
 				"description":	null,
 				"insts":	[{
 						"inst":	{
@@ -2300,7 +2391,7 @@
 					"code":	5,
 					"name":	"Potential Alternate Vendors"
 				},
-				"description":	"RES 12K OHM 1% 1/32W 01005",
+				"description":	"Cap Cer 3.3UF 10V X7R 0805",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
@@ -2322,15 +2413,15 @@
 								}
 							},
 							"field":	{
-								"name":	"element"
+								"name":	"VREGOUT-byp"
 							}
 						},
-						"ref":	"R4",
+						"ref":	"C3",
 						"fileinfo":	null
 					}],
-				"datasheet":	"https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf",
-				"manufacturer":	"PANASONIC",
-				"mpn":	"ERJ-XGNF1202Y",
+				"datasheet":	"http://www.calchipelectronics.com/pdf/gmc_series.pdf",
+				"manufacturer":	"CAL-CHIP ELECTRONICS, INC.",
+				"mpn":	"GMC21X7R335K10NT",
 				"vendor":	null,
 				"sku":	null,
 				"price":	null,
@@ -2361,6 +2452,42 @@
 				"datasheet":	"https://datasheet.lcsc.com/lcsc/1811131655_onsemi-MMSZ4689T1G_C236187.pdf",
 				"manufacturer":	"ON Semiconductor",
 				"mpn":	"MMSZ4689T1G",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
+				},
+				"description":	"31.25mW Thick Film Resistors ±1% ±200ppm/℃ 2kΩ 01005  Chip Resistor - Surface Mount ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"ctl"
+									}
+								},
+								"field":	{
+									"name":	"debug-if"
+								}
+							},
+							"field":	{
+								"name":	"element"
+							}
+						},
+						"ref":	"R9",
+						"fileinfo":	null
+					}],
+				"datasheet":	"",
+				"manufacturer":	"Cyntec",
+				"mpn":	"PFR02S-202-FNH",
 				"vendor":	null,
 				"sku":	null,
 				"price":	null,
@@ -2449,10 +2576,10 @@
 				"query_properties":	null
 			}, {
 				"status":	{
-					"code":	4,
-					"name":	"Not Enough Stock"
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
 				},
-				"description":	"RES 0 OHM JUMPER 1/10W 0402",
+				"description":	"50mW ±1% 0Ω 0201  Chip Resistor - Surface Mount ROHS",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
@@ -2461,29 +2588,139 @@
 										"name":	"core"
 									},
 									"field":	{
-										"name":	"usb-if"
+										"name":	"ctl"
 									}
 								},
 								"field":	{
-									"name":	"shield-term"
+									"name":	"debug-if"
 								}
 							},
 							"field":	{
-								"name":	"R"
+								"name":	"element"
 							}
 						},
-						"ref":	"R3",
+						"ref":	"R10",
+						"fileinfo":	null
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"ctl"
+									}
+								},
+								"field":	{
+									"name":	"debug-if"
+								}
+							},
+							"field":	{
+								"name":	"element"
+							}
+						},
+						"ref":	"R5",
 						"fileinfo":	null
 					}],
-				"datasheet":	"https://www.vishay.com/docs/28705/mcx0x0xpro.pdf",
-				"manufacturer":	"VISHAY",
-				"mpn":	"MCS04020Z0000ZEF00",
+				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_UNI-ROYAL-Uniroyal-Elec-NQ01WMF0000TEE_C2779702.pdf",
+				"manufacturer":	"Uniroyal",
+				"mpn":	"NQ01WMF0000TEE",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	5,
+					"name":	"Potential Alternate Vendors"
+				},
+				"description":	"RES 12K OHM 1% 1/32W 01005",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"ref":	{
+										"ref":	{
+											"name":	"core"
+										},
+										"field":	{
+											"name":	"ctl"
+										}
+									},
+									"field":	{
+										"name":	"debug-if"
+									}
+								},
+								"field":	{
+									"name":	"ftdi"
+								}
+							},
+							"field":	{
+								"name":	"element"
+							}
+						},
+						"ref":	"R4",
+						"fileinfo":	null
+					}],
+				"datasheet":	"https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf",
+				"manufacturer":	"PANASONIC",
+				"mpn":	"ERJ-XGNF1202Y",
+				"vendor":	null,
+				"sku":	null,
+				"price":	null,
+				"preferred":	false,
+				"query_properties":	null
+			}, {
+				"status":	{
+					"code":	4,
+					"name":	"Not Enough Stock"
+				},
+				"description":	"62.5mW Thick Film Resistors ±100ppm/℃ ±1% 5.1kΩ 0402  Chip Resistor - Surface Mount ROHS",
+				"insts":	[{
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"core"
+								},
+								"field":	{
+									"name":	"usb-if"
+								}
+							},
+							"field":	{
+								"name":	"CC1-R"
+							}
+						},
+						"ref":	"R2",
+						"fileinfo":	null
+					}, {
+						"inst":	{
+							"ref":	{
+								"ref":	{
+									"name":	"core"
+								},
+								"field":	{
+									"name":	"usb-if"
+								}
+							},
+							"field":	{
+								"name":	"CC0-R"
+							}
+						},
+						"ref":	"R1",
+						"fileinfo":	null
+					}],
+				"datasheet":	"//media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf",
+				"manufacturer":	"Samsung Electro-Mechanics",
+				"mpn":	"RC1005F512CS",
 				"vendor":	null,
 				"sku":	null,
 				"price":	null,
 				"preferred":	false,
 				"query_properties":	{
-					"resistance":	0,
+					"tolerance":	0.01,
+					"resistance":	5100,
 					"category":	"resistor",
 					"min-rated-temperature.max":	50,
 					"max-rated-temperature.min":	0,
@@ -2543,50 +2780,38 @@
 					"code":	4,
 					"name":	"Not Enough Stock"
 				},
-				"description":	"62.5mW Thick Film Resistors ±100ppm/℃ ±1% 5.1kΩ 0402  Chip Resistor - Surface Mount ROHS",
+				"description":	"RES 0 OHM JUMPER 1/10W 0402",
 				"insts":	[{
 						"inst":	{
 							"ref":	{
 								"ref":	{
-									"name":	"core"
+									"ref":	{
+										"name":	"core"
+									},
+									"field":	{
+										"name":	"usb-if"
+									}
 								},
 								"field":	{
-									"name":	"usb-if"
+									"name":	"shield-term"
 								}
 							},
 							"field":	{
-								"name":	"CC1-R"
+								"name":	"R"
 							}
 						},
-						"ref":	"R2",
-						"fileinfo":	null
-					}, {
-						"inst":	{
-							"ref":	{
-								"ref":	{
-									"name":	"core"
-								},
-								"field":	{
-									"name":	"usb-if"
-								}
-							},
-							"field":	{
-								"name":	"CC0-R"
-							}
-						},
-						"ref":	"R1",
+						"ref":	"R3",
 						"fileinfo":	null
 					}],
-				"datasheet":	"//media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf",
-				"manufacturer":	"Samsung Electro-Mechanics",
-				"mpn":	"RC1005F512CS",
+				"datasheet":	"https://www.vishay.com/docs/28705/mcx0x0xpro.pdf",
+				"manufacturer":	"VISHAY",
+				"mpn":	"MCS04020Z0000ZEF00",
 				"vendor":	null,
 				"sku":	null,
 				"price":	null,
 				"preferred":	false,
 				"query_properties":	{
-					"tolerance":	0.01,
-					"resistance":	5100,
+					"resistance":	0,
 					"category":	"resistor",
 					"min-rated-temperature.max":	50,
 					"max-rated-temperature.min":	0,
@@ -2596,6 +2821,9 @@
 				}
 			}],
 		"entries":	[{
+			}, {
+			}, {
+			}, {
 			}, {
 			}, {
 			}, {

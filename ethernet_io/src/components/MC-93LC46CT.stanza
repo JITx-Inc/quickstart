@@ -4,6 +4,7 @@
 defpackage components/MC-93LC46CT:
   import core
   import jitx
+  import jitx/parts
   import jitx/commands
 
   import jsl
@@ -39,3 +40,33 @@ public pcb-component component :
   val lp = create-landpattern(pkg)
   assign-landpattern(lp)
 
+public pcb-module module :
+  port VDD-3v3 : power
+  port cfg : microwire-4()
+  inst EEPROM : components/MC-93LC46CT/component
+
+  net (VDD-3v3.V+ EEPROM.VCC)
+  net (VDD-3v3.V- EEPROM.VSS)
+  net (cfg.do EEPROM.DO)
+  net (cfg.di EEPROM.DI)
+  net (cfg.clk EEPROM.CLK)
+  net (cfg.cs EEPROM.CS)
+
+  insert-resistor(
+    EEPROM.ORG EEPROM.VCC
+    helpers/res-query
+    resistance = 10.e3
+  )
+
+  insert-capacitor(
+    EEPROM.VCC EEPROM.VSS
+    helpers/cap-query
+    capacitance = 2.2e-6
+    short-trace? = true
+  )
+  ; insert-capacitor(
+  ;   p[1] p[2],
+  ;   CapacitorQuery()
+  ;   capacitance = 0.1e-6
+  ;   short-trace? = true
+  ; )

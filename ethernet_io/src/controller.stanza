@@ -25,4 +25,6 @@ public pcb-module controller :
   net (debug-if.VDD-USB VDD-USB)
   net (debug-if.USB USB)
 
-  inst EEPROM: components/MC-93LC46CT/component
+  inst EEPROM: components/MC-93LC46CT/module
+  net (EEPROM.VDD-3v3 rail-3v3)
+  net (EEPROM.cfg debug-if.CFG)
