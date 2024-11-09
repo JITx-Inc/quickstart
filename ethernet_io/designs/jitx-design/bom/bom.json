@@ -117,7 +117,7 @@
 						"ref":	"C18",
 						"fileinfo":	null
 					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2108051830_Wurth-Elektronik-885012105013_C2176943.pdf",
+				"datasheet":	"https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108051830_Wurth-Elektronik-885012105013_C2176943.pdf",
 				"manufacturer":	"Wurth Elektronik",
 				"mpn":	"885012105013",
 				"vendor":	"DigiKey",
@@ -205,7 +205,7 @@
 						"ref":	"C11",
 						"fileinfo":	null
 					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2201131300_Murata-Electronics-GRM188Z71A475KE15D_C913474.pdf",
+				"datasheet":	"https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201131300_Murata-Electronics-GRM188Z71A475KE15D_C913474.pdf",
 				"manufacturer":	"MURATA",
 				"mpn":	"GRM188Z71A475KE15D",
 				"vendor":	"DigiKey",
@@ -290,7 +290,7 @@
 							"column":	2
 						}
 					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_Murata-Electronics-BLM18KG221SN1D_C88980.pdf",
+				"datasheet":	"https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-BLM18KG221SN1D_C88980.pdf",
 				"manufacturer":	"MURATA",
 				"mpn":	"BLM18KG221SN1D",
 				"vendor":	"DigiKey",
@@ -516,7 +516,7 @@
 							"column":	2
 						}
 					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2109161730_MOLEX-2012670005_C565324.pdf",
+				"datasheet":	"https://www.lcsc.com/datasheet/lcsc_datasheet_2407021105_MOLEX-2012670005_C565324.pdf",
 				"manufacturer":	"MOLEX",
 				"mpn":	"2012670005",
 				"vendor":	"DigiKey",
@@ -1304,7 +1304,7 @@
 						"ref":	"R1",
 						"fileinfo":	null
 					}],
-				"datasheet":	"//media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf",
+				"datasheet":	"https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309061356_Samsung-Electro-Mechanics-RC1005F512CS_C4048242.pdf",
 				"manufacturer":	"Samsung Electro-Mechanics",
 				"mpn":	"RC1005F512CS",
 				"vendor":	null,
@@ -1349,7 +1349,7 @@
 						"ref":	"C1",
 						"fileinfo":	null
 					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2309051409_Taiyo-Yuden-UMK105BJ472MVHF_C2183822.pdf",
+				"datasheet":	"https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309051409_Taiyo-Yuden-UMK105BJ472MVHF_C2183822.pdf",
 				"manufacturer":	"Taiyo Yuden  Inc",
 				"mpn":	"UMK105BJ472MVHF",
 				"vendor":	null,
@@ -1524,7 +1524,7 @@
 						"ref":	"C18",
 						"fileinfo":	null
 					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2108051830_Wurth-Elektronik-885012105013_C2176943.pdf",
+				"datasheet":	"https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108051830_Wurth-Elektronik-885012105013_C2176943.pdf",
 				"manufacturer":	"Wurth Elektronik",
 				"mpn":	"885012105013",
 				"vendor":	"DigiKey",
@@ -1612,7 +1612,7 @@
 						"ref":	"C11",
 						"fileinfo":	null
 					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2201131300_Murata-Electronics-GRM188Z71A475KE15D_C913474.pdf",
+				"datasheet":	"https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201131300_Murata-Electronics-GRM188Z71A475KE15D_C913474.pdf",
 				"manufacturer":	"MURATA",
 				"mpn":	"GRM188Z71A475KE15D",
 				"vendor":	"DigiKey",
@@ -1697,7 +1697,7 @@
 							"column":	2
 						}
 					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2304140030_Murata-Electronics-BLM18KG221SN1D_C88980.pdf",
+				"datasheet":	"https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-BLM18KG221SN1D_C88980.pdf",
 				"manufacturer":	"MURATA",
 				"mpn":	"BLM18KG221SN1D",
 				"vendor":	"DigiKey",
@@ -1923,7 +1923,7 @@
 							"column":	2
 						}
 					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2109161730_MOLEX-2012670005_C565324.pdf",
+				"datasheet":	"https://www.lcsc.com/datasheet/lcsc_datasheet_2407021105_MOLEX-2012670005_C565324.pdf",
 				"manufacturer":	"MOLEX",
 				"mpn":	"2012670005",
 				"vendor":	"DigiKey",
@@ -2711,7 +2711,7 @@
 						"ref":	"R1",
 						"fileinfo":	null
 					}],
-				"datasheet":	"//media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf",
+				"datasheet":	"https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309061356_Samsung-Electro-Mechanics-RC1005F512CS_C4048242.pdf",
 				"manufacturer":	"Samsung Electro-Mechanics",
 				"mpn":	"RC1005F512CS",
 				"vendor":	null,
@@ -2756,7 +2756,7 @@
 						"ref":	"C1",
 						"fileinfo":	null
 					}],
-				"datasheet":	"https://datasheet.lcsc.com/lcsc/2309051409_Taiyo-Yuden-UMK105BJ472MVHF_C2183822.pdf",
+				"datasheet":	"https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309051409_Taiyo-Yuden-UMK105BJ472MVHF_C2183822.pdf",
 				"manufacturer":	"Taiyo Yuden  Inc",
 				"mpn":	"UMK105BJ472MVHF",
 				"vendor":	null,

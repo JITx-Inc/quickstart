@@ -64,9 +64,3 @@ public pcb-module module :
     capacitance = 2.2e-6
     short-trace? = true
   )
-  ; insert-capacitor(
-  ;   p[1] p[2],
-  ;   CapacitorQuery()
-  ;   capacitance = 0.1e-6
-  ;   short-trace? = true
-  ; )

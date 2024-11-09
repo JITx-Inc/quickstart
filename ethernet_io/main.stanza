@@ -22,8 +22,16 @@ pcb-module communications-core :
 
   inst ctl : controller 
 
-  net (ctl.USB usb-if.USB)
+  net USB-DATA (ctl.USB usb-if.USB)
   net (ctl.VDD-USB usb-if.VDD-USB)
+
+  net VBUS (ctl.VDD-USB.V+)
+  net P3V3 (ctl.rail-3v3.V+)
+  net GND (ctl.rail-3v3.V-)
+
+  symbol(GND) = GND-SYMB
+  symbol(VBUS) = PWR-SYMB
+  symbol(P3V3) = PWR-SYMB
 
 ; Module to run as a design
 pcb-module top-level :
